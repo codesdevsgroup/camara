@@ -1,12 +1,8 @@
 ﻿<?php
-$servername="185.211.7.205";
-$database = "u127378936_camara";
-$username = "u127378936_codesdev";
-$password = "tQ7a=];H*4";
-// Create connection
-$mysqli = new mysqli($servername, $username, $password, $database);
-// Check connection
-if (!$msqli->connect_errno) {
-    echo "Falha na conexão: (".$mysqli->connect_error.") ".$mysqli->connect_error;
-}
+    date_default_timezone_set('America/Sao_Paulo');
+	header('Content-Type: text/html; charset=UTF-8 Unicode (utf8)');
+	$dsn = "mysql:dbname=u127378936_camara;host:mysql.hostinger.com.br;port:3306";
+	    $user = "u127378936_codesdev";
+	    $senha = "tQ7a=];H*4"; 
+	$con = new PDO($dsn,$user, $senha);
 ?>

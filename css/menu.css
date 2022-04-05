@@ -1,0 +1,29 @@
+﻿#menu{
+    width:453px;
+}
+
+#menu li:hover {
+    background:#800;
+}
+
+#menu ul {
+    list-style:none;
+    background:#888;
+    padding:0px;
+    margin:0px;
+}
+
+#menu li {
+    height:47px;
+    display:table-cell;
+    text-align:center;
+    vertical-align:middle;
+    width:150px;
+    border-right:1px solid #FFF;
+}
+
+#menu ul li a{
+    text-decoration:none;
+    font-size:20px;
+    color:#FFF;
+}

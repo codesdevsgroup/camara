@@ -1,0 +1,37 @@
+body{
+    font-family: sans-serif;
+}
+#cabecalho {
+    background-color: rgb(158, 5, 5);
+    list-style: none;
+    border: none;
+    float: left;
+    width: 100%;
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+}
+
+#cabecalho li {
+    list-style: none;
+    position: relative;
+    float: left;
+    
+}
+
+#cabecalho li a {
+    color: #333;
+    padding: 5px 10px;
+    text-align: center;
+
+}
+
+.linha1 {
+    width: 75%;
+    padding: auto;
+    padding-bottom: 5px;
+}
+
+.linha2 {
+    padding: auto;
+    padding-bottom: 5px;
+}

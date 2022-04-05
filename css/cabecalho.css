@@ -1,17 +1,37 @@
-#cabecalho{
-    background-color: darkgray;
-    list-style: none;
-    border: 1px solid #c0c0c0;
-    float: left;
+body{
+    font-family: sans-serif;
 }
-#cabecalho li{
+#cabecalho {
+    background-color: rgb(158, 5, 5);
+    list-style: none;
+    border: none;
+    float: left;
+    width: 100%;
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+}
+
+#cabecalho li {
+    list-style: none;
     position: relative;
     float: left;
-    border-right: 1px solid #c0c0c0;
+    
 }
-#cabecalho li a{
+
+#cabecalho li a {
     color: #333;
-    text-decoration: none;
-    padding:5px 10px;
-    display: block;
+    padding: 5px 10px;
+    text-align: center;
+
+}
+
+.linha1 {
+    width: 75%;
+    padding: auto;
+    padding-bottom: 5px;
+}
+
+.linha2 {
+    padding: auto;
+    padding-bottom: 5px;
 }

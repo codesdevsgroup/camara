@@ -1,65 +1,40 @@
-body {
-    background-color: #f0f0f0;
-    font-family: sans-serif;
+* {
+    margin: 0;
+    padding: 5;
+    border: 0;
 }
-
-.form {
-    width: 500px;
-    margin: auto;
-    padding-top: 50px;
+body style{
+    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
+    ul, ol, li {
+        list-style: none;
+    }
 
-.card {
-    box-shadow: 1px 1px 5px #ccc;
-    background-color: white;
-    padding: 30px;
-    border-radius: 5px;
-}
 
-.card-top {
-    text-align: center;
-
-}
-
-.imglogin {
-    border-radius: 50px;
-    background-color: darkgrey;
-    width: 100px;
-    box-shadow: 10px 10px 5px rgb(219, 212, 212);
-}
-
-.title {
-    color: rgb(255, 0, 0);
-}
-
-.card-group>label {
+#cabecalho {
+    background-color: rgb(0, 0, 0);
+    list-style: none;
+    border: none;
+    float: left;
     width: 100%;
-    color: rgb(82, 80, 80);
-    display: block;
+    height: 30px;
+    color: rgb(255, 255, 255);
 }
 
-.card-group>input {
-    border-radius: 5px;
-    outline: 0;
-    width: 100%;
-    height: 25px;
-    padding: 5px;
+#cabecalho li {
+    list-style: none;
+    position: relative;
+    float: left;
+    margin-top: 5px;
 }
 
-.card-group {
-    margin-bottom: 10px;
+.linha1 {
+    width: 25%;
+    padding: auto;
+    padding-bottom: 5px;
 }
 
-.card-group>button {
-    background-image: linear-gradient(to right, rgb(244, 10, 10), rgb(167, 18, 18));
-    width: 100%;
-    border-radius: 30px;
-    padding: 15px;
-    color: white;
-    border: 0px;
-    outline: 0;
-}
-
-.btn button:hover {
-    background-image: linear-gradient(to right, rgb(139, 14, 14), rgb(244, 10, 10));
+.linha2 {
+    padding: auto;
+    padding-bottom: 5px;
 }

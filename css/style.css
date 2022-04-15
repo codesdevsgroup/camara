@@ -1,17 +1,21 @@
-/* Menu */
-
 * {
     margin: 0;
     padding: 5;
     border: 0;
 }
 
+/* informativo superior */
 #cabecalho {
     background: rgb(1, 1, 1);
 }
 
+/* Menu */
 #menu {
-    background: rgb(182, 66, 66);
+    background-color: brown;
+}
+
+.navega li{
+    background: rgb(247, 166, 166);
 }
 
 .logo img {

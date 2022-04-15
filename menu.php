@@ -11,9 +11,9 @@
 <body class="topo">
   <div id="cabecalho">
       <ul>
-            <li><a href="#.php">telefone</a></li>
-            <li><a href="#.php">email</a></li>
-            <li><a href="#.php">reuniao</a></li>
+            <li><a>telefone</a></li>
+            <li><a>email</a></li>
+            <li><a>reuniao</a></li>
       </ul>      
   </div>
     <div id="menu">

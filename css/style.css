@@ -7,7 +7,9 @@
 /* informativo superior */
 #cabecalho {
     background: rgb(1, 1, 1);
+    color: rgb(255, 255, 255);
 }
+
 
 /* Menu */
 #menu {
@@ -16,6 +18,9 @@
 
 .navega li{
     background: rgb(247, 166, 166);
+    border-color: white;
+    border-width: 1px;
+    border-style: solid;
 }
 
 .logo img {

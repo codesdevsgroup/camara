@@ -6,18 +6,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="CodesDev" />
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
     <title>Página Principal</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
-
-<body class="cabecalho">
-    <div>
-        <nav>
-            <object id="cabecalho" data="menu.html"></object>
-        </nav>
+<body class="topo">
+<header>
+    <div id="cabecalho">
+        <ul>
+            <li><a>telefone</a></li>
+            <li><a>email</a></li>
+            <li><a>reuniao</a></li>
+        </ul>      
     </div>
-    
-</body>
-
-</html>

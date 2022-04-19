@@ -14,14 +14,23 @@
 
 /* Menu */
 #menu {
-    background-color: brown;
+    background: brown;
 }
 
-.navega li{
+.navega ul{
+    text-align: right;
+}
+
+.navega a{
     background: rgb(247, 166, 166);
     border-color: white;
     border-width: 1px;
     border-style: solid;
+    padding: 10px;
+    list-style: none;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-weight: bold;
 }
 
 .logo img {
@@ -29,4 +38,7 @@
     max-height:150px;
     width: auto;
     height: auto;
+}
+object{
+  
 }

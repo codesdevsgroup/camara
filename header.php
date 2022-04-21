@@ -13,8 +13,8 @@
 <header>
     <div id="cabecalho">
         <ul>
-            <li><a>telefone</a></li>
+            <li><a>telefones</a></li>
             <li><a>email</a></li>
-            <li><a>reuniao</a></li>
+            <li><a>reunião</a></li>
         </ul>      
     </div>

@@ -1,7 +1,7 @@
 * {
     margin: 0;
-    padding: 5;
-    border: 5;
+    padding: 0;
+    border: 0;
 }
 
 /* informativo superior */
@@ -20,15 +20,24 @@
 }
 
 /* Menu */
+.logo {
+    display: flex;
+    align-items: right;
+    width: 130px;    
+}
+
 #menu {
     background: rgb(224, 21, 21);
+    list-style: none; 
+    display: flex; 
 }
 
-.navega ul{
-    text-align: right;
+g#navegacao ul{
+    text-align: right;  
+    border: 5px solid rgb(255, 255, 255);
 }
 
-.navega a{
+#navegacao a{
     background: rgb(199, 109, 109);
     border-color: white;
     border-width: 2px;
@@ -38,31 +47,40 @@
     padding: 16px;
     margin: 5px;
     list-style: none;
-    color: rgb(255, 255, 255);
-    text-decoration: none;
-    font-weight: bold;
+    color: rgb(255, 255, 255);    
 }
 
-.logo img {
-    max-width:200px;
-    max-height:150px;
-    width: auto;
-    height: auto;
-}
 
-.footer {
+#noticias {
+    background: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font-family: 'Work Sans';
+    text-align: center;
+   
+} 
+footer{
+        
+}
+.rodape {
     background: #1a008d;
     color: rgb(255, 255, 255);
     font-family: 'Work Sans';
     text-align: center;
 }
 
-#footer div{
+.rodape div{
     background-color:#0a0370;
-    width: auto;
     color:black;
-    height: 120px;
-    margin: 20px auto;
+    height: 140px;  
+    margin: 20px ;  
     padding-left:20px;
     padding-top: 5px;
+}
+.rodape li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 5px;
+    padding-right: 14px;
+    font-size: 14px;
+    
 }

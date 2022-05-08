@@ -23,7 +23,13 @@
 .logo {
     display: flex;
     align-items: right;
-    width: 130px;    
+    width: 40%;
+    height: 100%;
+}
+
+img {
+    width: 100%;
+    height: 100%;
 }
 
 #menu {
@@ -31,10 +37,19 @@
     list-style: none; 
     display: flex; 
 }
+nav {
+    margin-left: 10%;
+    text-align: right;
+}
 
-#navegacao ul{
-    text-align: right;  
-    border: 5px solid rgb(255, 255, 255);
+#navegacao {
+padding: 50px;
+}
+
+#navegacao ul li{
+    list-style-type: none;
+    display: inline-block;
+    text-align: right; 
 }
 
 #navegacao a{

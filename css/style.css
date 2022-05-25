@@ -1,7 +1,11 @@
 * {
     margin: 0;
     padding: 0;
-    border: 0;
+}
+
+#todo-conteudo {
+    max-width: 1980px;
+    margin: 0 auto;
 }
 
 /* informativo superior */
@@ -10,74 +14,92 @@
     color: rgb(255, 255, 255);
     font-family: 'Work Sans';
     text-align: center;
+
 }
 #cabecalho ul li {
     list-style-type: none;
     display: inline-block;
-    padding: 5px;
-    padding-right: 14px;
+    padding: 2px 5%;
     font-size: 16px;
 }
 
 /* Menu */
 .logo {
     display: flex;
-    align-items: right;
-    width: 40%;
-    height: 100%;
-}
-
-img {
-    width: 100%;
-    height: 100%;
+    width: 140px;
+    height: 140px;
+    margin-right: auto;
+    margin-top: -6px;
 }
 
 #menu {
-    background: rgb(224, 21, 21);
-    list-style: none; 
-    display: flex; 
+    background: rgb(21, 116, 224);
+    display: flex;
+    height: 120px;
 }
-nav {
-    margin-left: 10%;
-    text-align: right;
-}
-
 #navegacao {
-padding: 50px;
+    padding: 50px;
 }
-
 #navegacao ul li{
     list-style-type: none;
     display: inline-block;
-    text-align: right; 
 }
-
 #navegacao a{
-    background: rgb(199, 109, 109);
+    background: rgb(0, 47, 255);
     border-color: white;
     border-width: 2px;
     border-style: solid;
     border-radius: 8px;
     bottom: auto;
-    padding: 16px;
-    margin: 5px;
+    padding: 10px;
+    margin: 1.5px;
     list-style: none;
     color: rgb(255, 255, 255);    
+    text-decoration: none;
+}
+/*banner*/
+.banner img{
+    clear:both;
+    width: 100%;
+}
+#conteudo-princiapal{
+    background: rgba(83, 83, 83, 0.322);
+    margin: 2px 2px;
+    padding: 5px;
+    height: 1800px;
 }
 
-
-#noticias {
-    background: rgb(255, 255, 255);
-    color: rgb(0, 0, 0);
-    font-family: 'Work Sans';
-    text-align: center;
-   
-} 
-footer{
-        
+#noticias-principais {
+    margin: 1.5px;
+    width: 63%;
+    height: 800px;
+    background-color: #5d56bb;
+    margin-bottom: 10px;
+    float: left;
 }
+#menu-lateral {
+    margin: 1,5px;
+    width: 30%;
+    min-width: 400px;
+    height: 220px;
+    background-color: #5d56bb;
+    float: inline-end;
+}
+
+#bancada-legislativa {
+    clear: both;
+    width: 65%;
+    height: 600px;
+    float: left;
+    background-color: #5d56bb;
+    margin-right: 4%;
+    margin-bottom: 15px;
+}
+
+/* Direitos */
 .rodape {
-    background: #1a008d;
+    clear:both;
+    background: black;
     color: rgb(255, 255, 255);
     font-family: 'Work Sans';
     text-align: center;
@@ -98,4 +120,10 @@ footer{
     padding-right: 14px;
     font-size: 14px;
     
+}
+.rodape a{
+   
+}
+a:link, a:visited, a:hover{
+    color: #2dd349;
 }

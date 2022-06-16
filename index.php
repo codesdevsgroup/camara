@@ -140,23 +140,24 @@ Author URL: http://w3layouts.com
 			  </div>
       <div class="grid-view">
         <div class="row">
-         <?php
+         <?php 
 			$consulta = $conn->query("select tituloArtigo,artigo, imgArtigo01, dataPublicacao, idArtigo from tb_artigos ORDER BY idArtigo DESC LIMIT 3");
 			foreach ($consulta as $linhas)
 			{
-			$parcial = substr($linhas[1],0,100);
-			printf('<div class="col-lg-4 col-md-6 mt-md-4 mt-5">
+			$parcial = substr($linhas[1],0,100); ?>
+        <div class="col-lg-4 col-md-6 mt-md-4 mt-5">
             <div class="grids5-info">
-              <a href="generic.php?tipo=1&id=%s" class="d-block zoom"><img src="./dados/imagemArtigo/%s" alt="" class="img-fluid news-image"></a>
+              <a href="generic.php?tipo=1&id=<?=$linhas[4]?>" class="d-block zoom"><img src="./dados/imagemArtigo/<?=$linhas[2]?>" alt="" class="img-fluid news-image"></a>
               <div class="blog-info">
-                <p class="date"> %s</p>
-                <h4><a href="generic.php?tipo=1&id=%s"> %s </a></h4>
+                <p class="date"><?=date("d/m/Y", strtotime($linhas[3]))?></p>
+                <h4><a href="generic.php?tipo=1&id=<?=$linhas[4]?>"><?=$linhas[0]?></a></h4>
               
-                <p class="blog-text">%s...</p>
-                <a href="generic.php?tipo=1&id=%s" class="btn btn-news">Acessar conteúdo <span class="fa fa-angle-right pl-1"></span> </a>
+                <p class="blog-text"><?=$parcial?>...</p>
+                <a href="generic.php?tipo=1&id=<?=$linhas[4]?>" class="btn btn-news">Acessar conteúdo <span class="fa fa-angle-right pl-1"></span> </a>
               </div>
             </div>
-          </div>',$linhas[4],$linhas[2],date("d/m/Y", strtotime($linhas[3])),$linhas[4],$linhas[0],$parcial,$linhas[4]);
+          </div>
+          <?php
 												}
 		 ?>
      

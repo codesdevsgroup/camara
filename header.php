@@ -20,6 +20,4 @@
     <!-- Template CSS -->
     <link rel="stylesheet" href="assets/css/style-starter.css">
   </head>
-
-
-<?php include 'footer.php'; ?>
+<body>

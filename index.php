@@ -100,18 +100,6 @@
  <!--  services section -->
 
  <!--  //services section -->
-<!-- customers4 block -->
-<section class="w3l-customers-4" id="testimonials">
-  <div id="customers4-block" class="py-5">
-    <div class="container py-md-3">
-
-
-
-    </div>
-  </div>
-
-
-</section>
 <div class="products-4" id="gallery">
     <!-- Products4 block -->
     

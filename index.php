@@ -1,13 +1,6 @@
-<!--
-Author: W3layouts
-Author URL: http://w3layouts.com
--->
 <?php
 			require_once('./header.php');
 		 ?>
-
-<body>
-
 <!-- Top Menu 1 -->
 
 <section class="w3l-main-slider" id="home">

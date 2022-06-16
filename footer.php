@@ -47,7 +47,7 @@
               </div>
           </div>
           <div class="d-grid grid-col-2 bottom-copies">
-              <p class="copy-footer-29">© 2020 Farm Planning. Todos os Direitos Reservados | Designed by <a href="https://w3layouts.com">W3layouts</a></p>
+              <p class="copy-footer-29">© 2022 Câmara de Materlândia. Todos os Direitos Reservados | Desenvolvido por <a href="https://codesdevs.com">Codes Devs</a></p>
                <ul class="list-btm-29">
                       <li><a href="#link">Política de Privacidade</a></li>
                       <li><a href="#link">Termos de de Serviço</a></li>

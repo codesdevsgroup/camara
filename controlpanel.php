@@ -85,25 +85,19 @@ Author URL: http://w3layouts.com
 			
 						
 						<div class="tudo">
-<div class="painelmenu">
-<a href="uploaddoc.php" target="painel"><div class="btn">Cadastro de Produção</div></a>
-<a href="cadastraProcesso.php" target="painel"><div class="btn">Cadastro de Processos</div></a>
-<a href="cadastraanexoprocesso.php" target="painel"><div class="btn">Cadastro de Anexos</div></a>
-<a href="cadastraartigo.php" target="painel"><div class="btn">Cadastro de Notícias</div></a>
-</div>
-<div class="paineldados">
-<iframe name="painel" width="100%" height="600px"></iframe>
-</div>
-</div>			
-							
-					
-					
-					
-					
-					
-							<!-- end team member -->
-				</div>
+    <div class="painelmenu">
+    <a href="uploaddoc.php" target="painel"><div class="btn">Cadastro de Produção</div></a>
+    <a href="cadastraProcesso.php" target="painel"><div class="btn">Cadastro de Processos</div></a>
+    <a href="cadastraanexoprocesso.php" target="painel"><div class="btn">Cadastro de Anexos</div></a>
+    <a href="cadastraartigo.php" target="painel"><div class="btn">Cadastro de Notícias</div></a>
+          </div>
+          <div class="paineldados">
+            <iframe name="painel" width="100%" height="600px"></iframe>
+          </div>
+        </div>			
+			<!-- end team member -->
 			</div>
+		</div>
 	</section>
 	<!--//team-sec-->
 <!-- grids block 5 -->

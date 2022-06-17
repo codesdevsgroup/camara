@@ -32,7 +32,7 @@
 </div>
 
 
-  <script src="assets/js/owl.carousel.js"></script>
+<script src="assets/js/owl.carousel.js"></script>
   <!-- script for -->
   <script>
     $(document).ready(function () {

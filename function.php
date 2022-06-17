@@ -154,8 +154,7 @@ function valida_cnpj($cnpj) {
 
 function login()
 {
-	printf('
-		    <div class="social-top col-md-3 col-6">
+	printf('<div class="social-top col-md-3 col-6">
 			    <div class="main-social-head">
 				');
 	session_start();
@@ -170,5 +169,4 @@ function login()
 		    </div>
 ');
 }
-
 ?>

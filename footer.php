@@ -43,6 +43,7 @@
                       <li><a href="services.html">Copasa</a></li>
                       <li><a href="#"> Cemig</a></li>
                       <li><a href="contact.html">Polícia Militar</a></li>
+                      <li><a href="https://webmail.hostinger.com.br/auth">Servidor de E-mail</a> </li>
                   </ul>
               </div>
           </div>

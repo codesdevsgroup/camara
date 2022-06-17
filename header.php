@@ -12,36 +12,16 @@
     <link rel="stylesheet" href="assets/css/style-starter.css">
   </head>
 <body>
-<?php
-			require_once('./conexao.php');
-			require_once('./function.php');
-	  
-		 ?>
-
-<section class="w3l-top-menu-1">
-	<div class="top-hd">
-		<div class="container">
-	  <header class="row top-menu-top">
-		  <div class="accounts col-md-9 col-6">
-				<li class="top_li"><span class="fa fa-phone"></span><a href="tel:+55 33 3424-1170">+55 33 3427-1170</a> </li>
-				<li class="top_li1"><span class="fa fa-envelope-o"></span> <a href="mailto:contato@materlandia.mg.leg.br" class="mail"> contato@materlandia.mg.leg.br</a>	</li>
-				<li class="top_li"><a href="https://webmail.hostinger.com.br/auth">Servidor de E-mail</a> </li>
-		  </div>
-    </header>
-    </div>
-  </div>
-</section>
-<!-- //Top Menu 1 -->
-  <nav class="navbar navbar-expand-lg navbar-light py-lg-2 py-2">
-    <div class="container">
-      <a class="navbar-brand" href="index.php"><img src="assets/images/logo.png"></a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+<?php require_once('./conexao.php'); ?>
+<header>
+  <nav class="navbar navbar-expand-lg navbar-light " style="background-color: #007bff">
+    <a class="navbar-brand" href="index.php"><img src="assets/images/logo.png" width="150px" ></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon fa fa-bars"></span>
       </button>
 
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mx-auto mt-2">
+      <div class="collapse navbar-collapse" id="navbarNavDropdown" >
+        <ul class="navbar-nav">
           <li class="nav-item">
             <a class="btn" href="index.php">Início</a>
           </li>
@@ -57,10 +37,7 @@
           <li class="nav-item">
             <a class="nav-link" href="contato.php">Contato</a>
           </li>
-        </ul>
-
-        <?php login();?>
-        
+        </ul>        
       </div>
-    </div>
   </nav>
+<header>

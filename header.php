@@ -10,6 +10,7 @@
     <link href="//fonts.googleapis.com/css?family=Hind&display=swap" rel="stylesheet">
     <!-- Template CSS -->
     <link rel="stylesheet" href="assets/css/style-starter.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
   </head>
 <body>
 <?php require_once('./conexao.php'); ?>
@@ -30,9 +31,6 @@
           </li>
            <li class="nav-item">
             <a class="nav-link" href="regimento.php">Regimento</a>
-          </li>
-           <li class="nav-item">
-            <a class="nav-link" href="ouvidoria.php">Ouvidoria</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="contato.php">Contato</a>

@@ -33,10 +33,6 @@ Author URL: http://w3layouts.com
 			width: auto;
 			padding: 5px;
 		}
-		.divie
-		{
-			
-		}
 	  </style>
   </head>
   <body>

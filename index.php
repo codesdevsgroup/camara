@@ -2,7 +2,6 @@
 			require_once('./header.php');
 		 ?>
 <!-- Top Menu 1 -->
-
 <section class="w3l-main-slider" id="home">
   <!-- main-slider -->
   <div class="companies20-content">
@@ -149,5 +148,4 @@
     </div>
   </section>
 </section>
-<!-- grids block 5 -->
 <?php require_once 'footer.php'; ?>

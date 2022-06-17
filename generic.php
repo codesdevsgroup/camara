@@ -57,7 +57,6 @@ Author URL: http://w3layouts.com
 <?php
 	  require_once('./conexao.php');
 	  require_once('./function.php');
-	  cab();
 	  ?>
 <section class="w3l-about-breadcrum">
   <div class="breadcrum-bg">

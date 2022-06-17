@@ -14,14 +14,14 @@
 <body>
 <?php require_once('./conexao.php'); ?>
 <header>
-  <nav class="navbar navbar-expand-lg navbar-light " style="background-color: #007bff">
+  <nav class="navbar navbar-expand-sm navbar-light bg-info">
     <a class="navbar-brand" href="index.php"><img src="assets/images/logo.png" width="150px" ></a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon fa fa-bars"></span>
       </button>
 
       <div class="collapse navbar-collapse" id="navbarNavDropdown" >
-        <ul class="navbar-nav">
+        <ul class="ml-auto navbar-nav">
           <li class="nav-item">
             <a class="btn" href="index.php">Início</a>
           </li>

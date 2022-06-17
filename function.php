@@ -152,7 +152,7 @@ function valida_cnpj($cnpj) {
             }
         }
 
-function cab()
+function login()
 {
 	printf('
 		    <div class="social-top col-md-3 col-6">

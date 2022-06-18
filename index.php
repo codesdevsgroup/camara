@@ -1,6 +1,9 @@
 <?php
-			require_once('./header.php');
-		 ?>
+	require_once('./header.php');
+	if(!isset($_SESSION)) {
+		session_start();
+	}
+?>
 
 <section class="m-5">
 	<div class="bg-primary">

@@ -1,4 +1,6 @@
-<html>
+<?php print_r($_SESSION)?>
+
+<html lang="pt-br">
   <head>
     <meta charset="utf-8" />
     <title>Login</title>
@@ -29,13 +31,34 @@
               Login
             </div>
             <div class="card-body">
-              <form action="" method="post">
+              <form action="logintrue.php" method="post">
                 <div class="form-group">
                   <input name="user" type="user" class="form-control" placeholder="Usuário">
                 </div>
                 <div class="form-group">
                   <input name="pass" type="password" class="form-control" placeholder="Senha">
                 </div>
+                <?php 
+                  if (isset($_GET['login']) && $_GET['login'] == 'erro') {
+                  
+                ?>
+                
+                <div class="text-danger">
+                  Usuário ou senha inválido(s)
+                </div>
+
+                <?php } ?>
+
+                <?php 
+                  if (isset($_GET['login']) && $_GET['login'] == 'erro2') {
+                  
+                ?>
+                
+                <div class="text-danger">
+                  Faça login antes de acessar as páginas protegidas
+                </div>
+
+                <?php } ?>
                 <button class="btn btn-lg btn-info btn-block" type="submit">Entrar</button>
               </form>
             </div>

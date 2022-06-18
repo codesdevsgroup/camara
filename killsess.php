@@ -1,7 +1,11 @@
 ﻿<?php
-session_start();
-$_SESSION['logado']='Entrar';
-$_SESSION['block'] = 1;
-header("Location: index.php");
+  session_start();
+
+  if(!isset($_SESSION['authy']) || $_SESSION['authy'] != 'yes') {
+    header('Location: login.php?login=erro2');
+  } else if($_SESSION['authy'] = 'yes' && isset($_GET['logout'])){
+    session_destroy();
+    header("Location: login.php");
+  };
 
 ?>

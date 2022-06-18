@@ -57,89 +57,11 @@
           </div>
       </div>
   </div>
-  <!-- move top -->
-  <button onclick="topFunction()" id="movetop" title="Go to top">
-    <span class="fa fa-angle-up"></span>
-  </button>
-  <script>
-    // When the user scrolls down 20px from the top of the document, show the button
-    window.onscroll = function () {
-      scrollFunction()
-    };
-
-    function scrollFunction() {
-      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-        document.getElementById("movetop").style.display = "block";
-      } else {
-        document.getElementById("movetop").style.display = "none";
-      }
-    }
-
-    // When the user clicks on the button, scroll to the top of the document
-    function topFunction() {
-      document.body.scrollTop = 0;
-      document.documentElement.scrollTop = 0;
-    }
-  </script>
-  <!-- /move top -->
-</section>
-<script src="assets/js/jquery-3.3.1.min.js"></script>
-<!-- //footer-28 block -->
-</section>
-<script>
-  $(function () {
-    $('.navbar-toggler').click(function () {
-      $('body').toggleClass('noscroll');
-    })
-  });
-</script>
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
   <script src="./assets/js/bootstrap.min.js"></script>
 
-<!-- Template JavaScript -->
-<script src="assets/js/all.js"></script>
-<!-- Smooth scrolling -->
-<!-- <script src="assets/js/smoothscroll.js"></script> -->
-<script src="assets/js/owl.carousel.js"></script>
-
-<!-- script for -->
-<script>
-  $(document).ready(function () {
-    $('.owl-one').owlCarousel({
-      loop: true,
-      margin: 0,
-      nav: true,
-      responsiveClass: true,
-      autoplay: false,
-      autoplayTimeout: 5000,
-      autoplaySpeed: 1000,
-      autoplayHoverPause: false,
-      responsive: {
-        0: {
-          items: 1,
-          nav: false
-        },
-        480: {
-          items: 1,
-          nav: false
-        },
-        667: {
-          items: 1,
-          nav: true
-        },
-        1000: {
-          items: 1,
-          nav: true
-        }
-      }
-    })
-  })
-</script>
-<!-- //script -->
-
 </body>
-
 </html>
 <!-- // grids block 5 -->

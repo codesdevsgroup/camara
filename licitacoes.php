@@ -1,7 +1,3 @@
-<!--
-Author: W3layouts
-Author URL: http://w3layouts.com
--->
 <!doctype html>
 <html lang="en">
   <head>
@@ -42,7 +38,6 @@ Author URL: http://w3layouts.com
 <?php
 	  require_once('./conexao.php');
 	  require_once('./function.php');
-	  cab();
 	  ?>
 <section class="w3l-about-breadcrum">
   <div class="breadcrum-bg">
@@ -116,7 +111,7 @@ foreach ($resultado as $row)
   
  $esp = ' ';
 //Cria os links para navegação das paginas
-echo '  <a href="licitacoes.php?pg=1"><div class="links"><<</div></a>   ';
+echo '  <a href="./dados/licitacoes.php?pg=1"><div class="links"></div></a>';
        if($qtdPag > 1 && $pg<= $qtdPag){
          for($i=1; $i <= $qtdPag; $i++){
               
@@ -131,11 +126,10 @@ echo '  <a href="licitacoes.php?pg=1"><div class="links"><<</div></a>   ';
         }
  
        }
-       echo "    <a href=\"licitacoes.php?pg=$qtdPag\"><div class='links'>>></div></a>  ";
+       echo "    <a href=\"licitacoes.php?pg=$qtdPag\"><div class='links'></div></a>  ";
       
 ?>			
-				
-	<div class="pdfimg">    <a href = 'edital01_2022.pdf'><img src = 'pdf.png'/></a> </div>
+
 					
 					
 					

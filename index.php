@@ -1,40 +1,9 @@
 <?php
 			require_once('./header.php');
 		 ?>
-<!-- Top Menu 1 -->
-<section class="w3l-main-slider" id="home">
-  <!-- main-slider -->
-  <div class="companies20-content">
-   
-    <div class="owl-one owl-carousel owl-theme">
-      <div class="item">
-        <li>
-          <div class="slider-info banner-view bg bg2" data-selector=".bg.bg2">
-            <div class="banner-info">
-              <div class="container">
-                <div class="banner-info-bg mx-auto text-center">
-                  <h5>CÂMARA MUNICIPAL DE MATERLÂNDIA - MG</h5>
-               
-                </div>
-                
-              </div>
-            </div>
-          </div>
-        </li>
-      </div>
 
-      
-      
-    </div>
-  </div>
-
-</div>
-  <!-- /main-slider -->
-</section>
-<section class="w3l-feature-3">
-	<div class="grid top-bottom mb-lg-5 pb-lg-5">
-		<div class="container">
-			
+<section class="m-5">
+	<div class="bg-primary">
 			<div class="middle-section grid-column text-center">
 				<div class="three-grids-columns">
 					<span class="fa fa-file-text" aria-hidden="true"></span>
@@ -56,46 +25,38 @@
 					<a href="producao.php" class="red mt-3">Acesse </a>
 				</div>
 			</div>
-		</div>
 	</div>
 </section>
-  <!-- //features -->
-</section>
-<section class="w3l-news" id="news">
-  <section id="grids5-block" class="py-5">
-    <div class="container py-lg-3">
-      <div class="heading text-center mx-auto">
-				<h3 class="head">Ultimas Notícias</h3>
-				<p class="my-3 head"> Acompanhe aqui, as ultimas notícas publicadas pela Câmara Municipal de Materlândia - MG. Para ver todas as notícias, <a href="listamateria.php">clique aqui.</a></p>
-			  </div>
-      <div class="grid-view">
-        <div class="row">
-         <?php 
-			$consulta = $conn->query("select tituloArtigo,artigo, imgArtigo01, dataPublicacao, idArtigo from tb_artigos ORDER BY idArtigo DESC LIMIT 3");
-			foreach ($consulta as $linhas)
-			{
-			$parcial = substr($linhas[1],0,100); ?>
-        <div class="card col-lg-3 col-md-2 mt-md-2 mt-3">
-            <div class="grids5-info">
-              <a href="generic.php?tipo=1&id=<?=$linhas[4]?>" class=""><img src="./dados/imagemArtigo/<?=$linhas[2]?>" alt="" class="img-fluid news-image"></a>
+  <!-- news -->
+<section class="">
+  <div class="container mr-auto">
+    <div class="heading text-center mx-auto">
+			<h3 class="head">Ultimas Notícias</h3>
+			<p class="my-3 head"> Acompanhe aqui, as ultimas notícas publicadas pela Câmara Municipal de Materlândia - MG. Para ver todas as notícias, <a href="listamateria.php">clique aqui.</a></p>
+		</div>
+      <div class="row">
+        <?php 
+		    $consulta = $conn->query("select tituloArtigo,artigo, imgArtigo01, dataPublicacao, idArtigo from tb_artigos ORDER BY idArtigo DESC LIMIT 3");
+			  foreach ($consulta as $linhas)
+			  {
+			  $parcial = substr($linhas[1],0,100); 
+        ?>
+          <div class="card border-primary m-3 col-lg-3 col-md-4 text-center">
+            <a href="generic.php?tipo=1&id=<?=$linhas[4]?>"><img src="./dados/imagemArtigo/<?=$linhas[2]?>" alt="" class="img-fluid img-thumbnail"></a>
               <div class="blog-info">
-                <p class="date"><?=date("d/m/Y", strtotime($linhas[3]))?></p>
                 <h4><a href="generic.php?tipo=1&id=<?=$linhas[4]?>"><?=$linhas[0]?></a></h4>
-              
                 <p class="blog-text"><?=$parcial?>...</p>
-                <a href="generic.php?tipo=1&id=<?=$linhas[4]?>" class="btn btn-news">Acessar conteúdo <span class="fa fa-angle-right pl-1"></span> </a>
+                <button type="button" class="float-left btn btn-outline-primary btn-sm">
+                  <a href="generic.php?tipo=1&id=<?=$linhas[4]?>" class="btn-outline-primary">Acessar conteúdo <span class=""></span> </a>
+                </button>
+                <p class="date text-right"><?=date("d/m/Y", strtotime($linhas[3]))?></p>
               </div>
-            </div>
           </div>
-          <?php
-												}
-		 ?>
-     
-          
-          
-        </div>
+        <?php
+				}?>
       </div>
-    </div>
-  </section>
+  </div>
 </section>
+<!-- end news-->
+
 <?php require_once 'footer.php'; ?>

@@ -41,8 +41,8 @@
 			  {
 			  $parcial = substr($linhas[1],0,100); 
         ?>
-          <div class="card border-primary m-3 col-lg-3 col-md-4 text-center">
-            <a href="generic.php?tipo=1&id=<?=$linhas[4]?>"><img src="./dados/imagemArtigo/<?=$linhas[2]?>" alt="" class="img-fluid img-thumbnail"></a>
+          <div class="card border-primary m-3 col-lg-3 col-md-4 text-center ">
+            <a href="generic.php?tipo=1&id=<?=$linhas[4]?>"><img src="./dados/imagemArtigo/<?=$linhas[2]?>" alt="" class="img-fluid img-thumbnail w-50"></a>
               <div class="blog-info">
                 <h4><a href="generic.php?tipo=1&id=<?=$linhas[4]?>"><?=$linhas[0]?></a></h4>
                 <p class="blog-text"><?=$parcial?>...</p>

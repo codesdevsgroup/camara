@@ -1,9 +1,5 @@
-<!--
-Author: W3layouts
-Author URL: http://w3layouts.com
--->
 <!doctype html>
-<html lang="en">
+<html lang="pt-br">
   <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
@@ -17,7 +13,7 @@ Author URL: http://w3layouts.com
    <!-- //web fonts -->
     <!-- //web fonts -->
     <!-- Template CSS -->
-    <link rel="stylesheet" href="assets/css/style-starter.css">
+
     <style>
 	  .caixa
 	{
@@ -57,7 +53,6 @@ Author URL: http://w3layouts.com
 <?php
 	  require_once('./conexao.php');
 	  require_once('./function.php');
-	  cab();
 	  ?>
 <section class="w3l-about-breadcrum">
   <div class="breadcrum-bg">

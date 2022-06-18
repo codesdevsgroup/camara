@@ -1,7 +1,3 @@
-<!--
-Author: W3layouts
-Author URL: http://w3layouts.com
--->
 <!doctype html>
 <html lang="en">
   <head>
@@ -46,7 +42,7 @@ Author URL: http://w3layouts.com
 	  require_once('./conexao.php');
 	  require_once('./function.php');
 	  
-	  cab();
+	  login();
 	  ?>
 <section class="w3l-about-breadcrum">
   <div class="breadcrum-bg">

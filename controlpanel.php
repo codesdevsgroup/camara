@@ -54,7 +54,7 @@ Author URL: http://w3layouts.com
 		header("Location: login.php");
 	  }
 	  
-	  cab();
+	  login();
 	  ?>
 <section class="w3l-about-breadcrum">
   <div class="breadcrum-bg">

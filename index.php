@@ -2,7 +2,6 @@
 			require_once('./header.php');
 		 ?>
 <!-- Top Menu 1 -->
-
 <section class="w3l-main-slider" id="home">
   <!-- main-slider -->
   <div class="companies20-content">
@@ -69,7 +68,7 @@
   <!-- //script -->
   <!-- /main-slider -->
 </section>
-<section class="w3l-feature-3" id="">
+<section class="w3l-feature-3">
 	<div class="grid top-bottom mb-lg-5 pb-lg-5">
 		<div class="container">
 			
@@ -98,13 +97,7 @@
 	</div>
 </section>
  <!--  services section -->
-
- <!--  //services section -->
-<div class="products-4" id="gallery">
-    <!-- Products4 block -->
-    
-    <!-- Products4 block -->
-</div>
+ 
 <script src="assets/js/jquery-3.3.1.min.js"></script>
 <script src="assets/js/lightbox-plus-jquery.min.js"></script>
 <section class="w3l-features-4">
@@ -126,9 +119,9 @@
 			foreach ($consulta as $linhas)
 			{
 			$parcial = substr($linhas[1],0,100); ?>
-        <div class="col-lg-4 col-md-6 mt-md-4 mt-5">
+        <div class="card col-lg-3 col-md-2 mt-md-2 mt-3">
             <div class="grids5-info">
-              <a href="generic.php?tipo=1&id=<?=$linhas[4]?>" class="d-block zoom"><img src="./dados/imagemArtigo/<?=$linhas[2]?>" alt="" class="img-fluid news-image"></a>
+              <a href="generic.php?tipo=1&id=<?=$linhas[4]?>" class=""><img src="./dados/imagemArtigo/<?=$linhas[2]?>" alt="" class="img-fluid news-image"></a>
               <div class="blog-info">
                 <p class="date"><?=date("d/m/Y", strtotime($linhas[3]))?></p>
                 <h4><a href="generic.php?tipo=1&id=<?=$linhas[4]?>"><?=$linhas[0]?></a></h4>
@@ -149,5 +142,4 @@
     </div>
   </section>
 </section>
-<!-- grids block 5 -->
 <?php require_once 'footer.php'; ?>

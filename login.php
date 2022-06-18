@@ -46,6 +46,7 @@
                 <div class="text-danger">
                   Usuário ou senha inválido(s)
                 </div>
+                <br>
 
                 <?php } ?>
 
@@ -57,6 +58,7 @@
                 <div class="text-danger">
                   Faça login antes de acessar as páginas protegidas
                 </div>
+                <br>
 
                 <?php } ?>
                 <button class="btn btn-lg btn-info btn-block" type="submit">Entrar</button>

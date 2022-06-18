@@ -6,6 +6,7 @@ if(!isset($_SESSION)) {
 }
 print_r($_SESSION);
 
+
 if(isset($_POST['user']) || isset($_POST['pass'])) {
 
 	if(strlen($_POST['user']) == 0){

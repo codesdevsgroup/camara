@@ -1,3 +1,9 @@
+<?php 
+  require_once('./conexao.php'); 
+  if(!isset($_SESSION)) {
+    session_start();
+  }
+?>
 <!doctype html>
 <html lang="pt-br">
   <head>
@@ -8,7 +14,6 @@
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
   </head>
 <body>
-<?php require_once('./conexao.php'); ?>
 <header class="">
   <a class="" href="index.php"><img src="assets/images/logo.png" width="100px"></a>
   <div class="">

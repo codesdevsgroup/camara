@@ -152,21 +152,7 @@ function valida_cnpj($cnpj) {
             }
         }
 
-function login()
-{
-	printf('<div class="social-top col-md-3 col-6">
-			    <div class="main-social-head">
-				');
-	session_start();
-					if ($_SESSION['logado']!='Entrar')
-					{
-						echo($_SESSION['logado'].' <a href="killsess.php">Sair</a>');
-					} else
-					{
-						echo('<a href="login.php">Entrar</a>');
-					}
-	printf('</div>
-		    </div>
-');
+function login() {
+    
 }
 ?>

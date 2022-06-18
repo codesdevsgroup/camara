@@ -6,21 +6,32 @@
 ?>
 <!doctype html>
 <html lang="pt-br">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Câmara Municipal de Materlândia - MG</title>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Câmara Municipal de Materlândia - MG</title>
     <!-- Template CSS -->
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-  </head>
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+</head>
+
 <body>
 <header class="">
-  <a class="" href="index.php"><img src="assets/images/logo.png" width="100px"></a>
-  <div class="">
-		<li class=""><span class="fa fa-phone"></span><a href="tel:+55 33 3424-1170">+55 33 3427-1170</a> </li>
-		<li class=""><span class="fa fa-envelope-o"></span> <a href="mailto:contato@materlandia.mg.leg.br" class="mail"> contato@materlandia.mg.leg.br</a>	</li>
-	</div>
-    
+<div class="row align-items-center text-light mt-2">
+  <div class="col-sm offset-2">
+    <a class="" href="index.php"><img src="assets/images/logo.png" width="100px"></a>
+  </div>  
+  <div class="col-sm offset-1">
+    <a href="tel:+55 33 3424-1170" class="">+55 33 3427-1170</a><br>
+    <a href="mailto:contato@materlandia.mg.leg.br" class=""> contato@materlandia.mg.leg.br</a>
+  </div>
+</div>
+
+
+
+
+
+
+
   <nav class="navbar sticky-top navbar-expand-sm navbar-light bg-primary">
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nav-target" >
         <span class="navbar-toggler-icon"></span>

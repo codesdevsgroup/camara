@@ -1,4 +1,4 @@
-<section class="w3l-footer-29-main">
+<section class="" style="clear: both;">
   <div class="footer-29">
       <div class="container">
           <div class="d-grid grid-col-4 footer-top-29">

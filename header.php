@@ -16,13 +16,12 @@
 		<li class=""><span class="fa fa-envelope-o"></span> <a href="mailto:contato@materlandia.mg.leg.br" class="mail"> contato@materlandia.mg.leg.br</a>	</li>
 	</div>
     
-  <nav class="navbar sticky-top navbar-expand-sm navbar-light bg-primary" style="border: 100px">
-   
+  <nav class="navbar sticky-top navbar-expand-sm navbar-light bg-primary">
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nav-target" >
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse" id="nav-target" >
-        <ul class="h4 ml-auto navbar-nav">
+      <div class="border-leftcollapse navbar-collapse" id="nav-target" >
+        <ul class="h5 ml-auto navbar-nav">
           <li class="nav-item">
             <a class="nav-link" href="index.php">Início</a>
           </li>

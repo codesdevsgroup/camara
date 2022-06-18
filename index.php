@@ -7,7 +7,7 @@
 
   <!-- news -->
 <section class="container ">
-  <div class="col-9 mr-auto">
+  <div class="col-lg-9 col-12 mr-auto">
     <div class="heading text-center mx-auto">
 			<h3 class="head">Ultimas Notícias</h3>
 			<p class="my-3 head"> Acompanhe aqui, as ultimas notícas publicadas pela Câmara Municipal de Materlândia - MG. Para ver todas as notícias, <a href="listamateria.php">clique aqui.</a></p>
@@ -38,7 +38,7 @@
 </section>
 <!-- end news-->
 
-<section class="col-3 m-5">
+<section class="col-12 col-sm-3 ">
 	<div class="bg-primary">
 			<div class="middle-section grid-column text-center">
 				<div class="three-grids-columns">

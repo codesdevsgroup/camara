@@ -29,43 +29,6 @@
   </div>
 
 </div>
-
-
-<script src="assets/js/owl.carousel.js"></script>
-  <!-- script for -->
-  <script>
-    $(document).ready(function () {
-      $('.owl-one').owlCarousel({
-        loop: true,
-        margin: 0,
-        nav: false,
-        responsiveClass: true,
-        autoplay: false,
-        autoplayTimeout: 5000,
-        autoplaySpeed: 1000,
-        autoplayHoverPause: false,
-        responsive: {
-          0: {
-            items: 1,
-            nav: false
-          },
-          480: {
-            items: 1,
-            nav: false
-          },
-          667: {
-            items: 1,
-            nav: true
-          },
-          1000: {
-            items: 1,
-            nav: true
-          }
-        }
-      })
-    })
-  </script>
-  <!-- //script -->
   <!-- /main-slider -->
 </section>
 <section class="w3l-feature-3">
@@ -96,14 +59,7 @@
 		</div>
 	</div>
 </section>
- <!--  services section -->
- 
-<script src="assets/js/jquery-3.3.1.min.js"></script>
-<script src="assets/js/lightbox-plus-jquery.min.js"></script>
-<section class="w3l-features-4">
-	<!-- /features -->
-		
-   <!-- //features -->
+  <!-- //features -->
 </section>
 <section class="w3l-news" id="news">
   <section id="grids5-block" class="py-5">

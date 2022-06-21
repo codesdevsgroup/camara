@@ -101,7 +101,7 @@
 			</div>
 		<div class="row">
 			<?php 
-				$consulta = $conn->query("select tituloArtigo,artigo, imgArtigo01, dataPublicacao, idArtigo from tb_artigos ORDER BY idArtigo DESC LIMIT 8");
+				$consulta = $conn->query("select tituloArtigo,artigo, imgArtigo01, dataPublicacao, idArtigo from tb_artigos ORDER BY idArtigo DESC LIMIT 4");
 				foreach ($consulta as $linhas)
 				{
 				$parcial = substr($linhas[1],0,100); 
@@ -115,11 +115,10 @@
 				</div>
 			</div>
 			<?php
-					}?>
+			}?>
 		</div>
 	</div>
 	<div class="col-lg-4 col-12 mr-auto">
-		<div class="">
 			<div class="">
 				<span class="" aria-hidden="true"></span>
 				<h4>Licitações e Contratos</h4>
@@ -138,7 +137,7 @@
 				<p>Nesta área, você pode acompanhar toda Produção Legislativa, Indicações, Projetos de Lei da Câmara Municipal de Materlândia - MG</p>
 				<a href="producao.php" class="">Acesse </a>
 			</div>
-		</div>
+		
 	</div>
 </div>
 </section>

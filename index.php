@@ -69,9 +69,25 @@
       </div><!--/Row -->
     </div>
 </div>
+</section>
 
-
-
+<section>
+	<div class="container p-3">
+		<div class="row align-items-center bg-light h5">
+			<div class="col-7 ml-2 mt-4">
+			<p>Sejam Bem-vindos</p>
+			<p>
+			A Camara Municipal de Materlândia apresenta seu novo Portal, em atendimento à Lei Complementar 131/2009 de 27 de maio de 2009 e à Lei 12.527, chamada de "Lei de Acesso à Informação" sancionada pela Presidenta da República em 18/11/2011, que tem o propósito de regulamentar o direito constitucional de acesso dos cidadãos às informações públicas.
+			</p>
+			<p>
+			Por este canal o cidadão poderá acompanhar de forma dinâmica a aplicação dos recursos públicos da Câmara, compreendendo as receitas transferidas e a execução das despesas, sendo oferecidas outras informações de interesse do cidadão, tais como projetos dos vereadores, pauta parlamentar e andamento de contratos e relatórios exigidos pela lei de responsabilidade fiscal.
+			</p>
+			</div>
+			<div class="col-4">
+				<img src="./assets/img/logo.png" class="img-fluid">
+			</div>
+		</div>
+	</div>
 </section>
 
   <!-- news -->

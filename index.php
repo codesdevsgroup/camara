@@ -2,7 +2,7 @@
 	require_once('./header.php');
 ?>
 <section class="container">
-	<div class="row"><!--Row -->
+	<div class="row " style="display: block;" ><!--Row -->
         <div class="col-sm-12 m-auto"><!--col-sm8 -->
           <div id="carousel-legenda" class="carousel slide" data-ride="carousel"><!--Carousel -->
 
@@ -77,7 +77,7 @@
   <!-- news -->
 <section>
 <div class="container">
-	<div class="row bg-light">
+	<div class="row bg-light py-3">
 		<div class="col-lg-8 col-12 mr-auto ">
 			<div class="heading text-center mx-auto">
 				<h3 class="head">Ultimas Notícias</h3>

@@ -19,9 +19,9 @@
   <div class="align-items-center" style="background: black; text-align: center">
     <div class="container">
       <div class="">
-        <a  href="index.php" class="ml-2 mr-5 text-white">Câmara Municipal de Materlândia - MG</a>
-        <a href="tel:+55 33 3424-1170" class="text-white ml-1 mr-5" style= "white-space: nowrap;">+55 33 3427-1170</a>
-        <a href="mailto:contato@materlandia.mg.leg.br" class="text-white ml-1"> contato@materlandia.mg.leg.br</a>
+        <a  href="index.php" class="text-white pr-3">Câmara Municipal de Materlândia - MG</a>
+        <a href="tel:+55 33 3424-1170" class="text-white pr-3" style= "white-space: nowrap;">+55 33 3427-1170</a>
+        <a href="mailto:contato@materlandia.mg.leg.br" class="text-white pr-3"> contato@materlandia.mg.leg.br</a>
         </div>
       </div>
     </div>

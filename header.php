@@ -11,6 +11,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <title>Câmara Municipal de Materlândia - MG</title>
   <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
 <body>
@@ -25,13 +26,13 @@
       </div>
     </div>
 
-  <nav class="navbar navbar-expand-sm navbar-light bg-primary sticky-top">
+  <nav class="navbar navbar-expand-sm navbar-light bg-primary sticky-top shadow">
     <div class="container">
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nav-target">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="text-center collapse navbar-collapse" id="nav-target" >
-        <ul class="navbar-nav h5 ml-auto">
+      <div class="menu text-center collapse navbar-collapse" id="nav-target" >
+        <ul class="navbar-nav h4 ml-auto">
           <li class="nav-item">
             <a class="nav-link" href="index.php">Início</a>
           </li>

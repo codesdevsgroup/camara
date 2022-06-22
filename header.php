@@ -1,22 +1,37 @@
+<?php 
+  require_once('./conexao.php'); 
+  if(!isset($_SESSION)) {
+    session_start();
+  }
+?>
 <!doctype html>
 <html lang="pt-br">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Câmara Municipal de Materlândia - MG</title>
-    <!-- Template CSS -->
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-  </head>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Câmara Municipal de Materlândia - MG</title>
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+</head>
+
 <body>
-<?php require_once('./conexao.php'); ?>
-<header>
-  <nav class="navbar fixed-top navbar-expand-sm navbar-light bg-primary" style="border: 100px">
-    <a class="navbar-brand" href="index.php"><img src="assets/images/logo.png" width="80px"></a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nav-target" >
+<header class="">
+  <div class="align-items-center" style="background: black;">
+    <div class="container">
+      <div class="">
+        <a  href="index.php" class="ml-2 mr-5 text-white">Câmara Municipal de Materlândia - MG</a>
+        <a href="tel:+55 33 3424-1170" class="text-white ml-1 mr-5" style= "white-space: nowrap;">+55 33 3427-1170</a>
+        <a href="mailto:contato@materlandia.mg.leg.br" class="text-white ml-1"> contato@materlandia.mg.leg.br</a>
+        </div>
+      </div>
+    </div>
+
+  <nav class="navbar navbar-expand-sm navbar-light bg-primary sticky-top">
+    <div class="container">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nav-target">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse" id="nav-target" >
-        <ul class="h4 ml-auto navbar-nav">
+      <div class="text-center collapse navbar-collapse" id="nav-target" >
+        <ul class="navbar-nav h5 ml-auto">
           <li class="nav-item">
             <a class="nav-link" href="index.php">Início</a>
           </li>
@@ -31,5 +46,6 @@
           </li>
         </ul>        
       </div>
+    </div>
   </nav>
 <header>

@@ -1,58 +1,7 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-    <title>Câmara Municipal de Materlândia - Corpo Legislativo</title>
-    <!-- web fonts -->
-   <!-- web fonts -->
-   <link href="//fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900&display=swap" rel="stylesheet">
-   <link href="//fonts.googleapis.com/css?family=Hind&display=swap" rel="stylesheet">
-   <!-- //web fonts -->
-    <!-- //web fonts -->
-    <!-- Template CSS -->
-    <link rel="stylesheet" href="assets/css/style-starter.css">
-  </head>
-  <body>
-
-
-<!-- Top Menu 1 -->
 <?php
-	  require_once('./conexao.php');
-	  require_once('./function.php');
-	  ?>
-<section class="w3l-about-breadcrum">
-  <div class="breadcrum-bg">
-    <div class="container py-5">
-		<p><a href="index.php">Início</a> &nbsp; / &nbsp; Regimento Interno</p>
-    </div>
-  </div>
-</section>
-<!-- content-with-photo4 block -->
+	require_once('./header.php');
+?>
 
-<!--/team-sec-->
-	<section class="w3l-team-main">
-		<div class="team py-5">
-			<div class="container py-lg-5">
-				<div class="heading text-center mx-auto">
-					<h3 class="head">Regimento Interno</h3>
-					<p class="my-3 head"> Aqui você encontra o Regimento Interno da Câmara Municipal de Materlândia - MG.</p>
-					  
-					</div>
-					
-					
-					
-					<div class="row team-row pt-3 mt-5">
-						
-						<iframe src="dados/producao/regimentointerno.pdf" width="95%" height="780" style="border: none;"></iframe>
-					
-							<!-- end team member -->
-				</div>
-			</div>
-	</section>
-	<!--//team-sec-->
 <!-- grids block 5 -->
 <section class="w3l-footer-29-main">
   <div class="footer-29">

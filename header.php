@@ -16,7 +16,7 @@
 
 <body>
 <header class="">
-  <div class="align-items-center" style="background: black;">
+  <div class="align-items-center" style="background: black; text-align: center">
     <div class="container">
       <div class="">
         <a  href="index.php" class="ml-2 mr-5 text-white">Câmara Municipal de Materlândia - MG</a>
@@ -25,8 +25,8 @@
         </div>
       </div>
     </div>
-
-  <nav class="navbar navbar-expand-sm navbar-light bg-primary sticky-top shadow">
+    
+  <nav class=" navbar navbar-expand-sm navbar-light bg-primary sticky-top shadow">
     <div class="container">
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nav-target">
         <span class="navbar-toggler-icon"></span>

@@ -1,16 +1,6 @@
 <?php
 			require_once('./header.php');
 		 ?>
-<section class="w3l-about-breadcrum">
-  <div class="breadcrum-bg">
-    <div class="container py-5">
-		<p><a href="index.php">Início</a> &nbsp; / &nbsp; Vereadores</p>
-    </div>
-  </div>
-</section>
-<!-- content-with-photo4 block -->
-
-<!--/team-sec-->
 	<section class="w3l-team-main">
 		<div class="team py-5">
 			<div class="container py-lg-5">

@@ -68,7 +68,7 @@
         </div><!--/col-sm8 -->
       </div><!--/Row -->
     </div>
-</div>
+
 </section>
 
 <section>

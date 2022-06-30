@@ -1,5 +1,5 @@
 ﻿:root {
-    cor1: #007bff;
+    cor1: #00a1ff;
     cor2: #007bff;
 }
 
@@ -23,7 +23,7 @@ html {
 }
 
 .barra_menu{
-   background-color: #00a1ff;
+   background-color: var(--cor1);
    
 }
 

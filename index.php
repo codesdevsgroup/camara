@@ -92,8 +92,8 @@
 
   <!-- news -->
 <section>
-<div class="container ">
-	<div class="row py-3 mb-5 bg-white rounded">
+<div class="container bg-white">
+	<div class="row py-3 mb-5 rounded">
 		<div class="col-lg-8 shadow p-3 col-12 mr-auto ">
 			<div class="heading text-center mx-auto">
 				<h3 class="head">Ultimas Notícias</h3>

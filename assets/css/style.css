@@ -1,6 +1,6 @@
 ﻿:root {
-    cor1: #00a1ff;
-    cor2: #007bff;
+    --cor1: #00a1ff;
+    --cor2: #007bff;
 }
 
 html {
@@ -22,9 +22,8 @@ html {
     text-align: center
 }
 
-.barra_menu{
+.barra_menu {
    background-color: var(--cor1);
-   
 }
 
 @media (min-width: 1024px){

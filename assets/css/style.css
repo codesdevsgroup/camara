@@ -11,12 +11,13 @@ body {
 }
 
 .menu ul li{
-    transition: transform .3s;
+
     margin: 0 auto;
     font-weight: bold;
 }
 .menu ul li:hover{
-    transform: scale(1.07);
+    transition: transform .2s;
+    transform: scale(1.2);
 
 }
 

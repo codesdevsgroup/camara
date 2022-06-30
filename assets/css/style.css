@@ -1,4 +1,8 @@
-﻿html {
+﻿:root {
+    --blue: #007bff;
+}
+
+html {
     overflow-x: hidden;
 }
 

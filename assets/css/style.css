@@ -9,7 +9,6 @@
 .menu ul li:hover{
     transform: scale(1.1);
     margin: 0px 15px;
-    text-transform: uppercase;
 }
 
 

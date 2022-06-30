@@ -1,4 +1,4 @@
-<section class="" style="clear: both;">
+<section class="">
     <div class="container">
         <div class="row">
             <div class="footer-list-29 footer-3">     
@@ -16,7 +16,17 @@
                 </ul>
             </div>
         </div>
-    </div>
+    
+        <div class="row pt-3">
+            <div class="">
+                <ul>
+                    <h6 class="footer-title-29">Menu Principal</h6>
+                    <li><a href="index.php">Início</a></li>
+                    <li><a href="vereadores.php">Vereadores</a></li>
+                    <li><a href="regimento.php">Regimento</a></li>
+                    <li><a href="contato.php.html">Contato</a></li>
+                </ul>
+            </div>
             <div class="">
                 <ul>
                     <h6 class="">Links Úteis</h6>
@@ -27,39 +37,25 @@
                     <li><a href="contact.html">Polícia Militar</a></li>
                     <li><a href="https://webmail.hostinger.com.br/auth">Servidor de E-mail</a> </li>
                 </ul>
-              </div>
-          </div>
-          <div class="">
-              <div class="">
-                
-                  <div class="main-social-footer-29">
-                      <a href="#facebook" class="facebook"><span class="fa fa-facebook"></span></a>
-                      <a href="#twitter" class="twitter"><span class="fa fa-twitter"></span></a>
-                      <a href="#instagram" class="instagram"><span class="fa fa-instagram"></span></a>
-                      <a href="#google-plus" class="google-plus"><span class="fa fa-google-plus"></span></a>
-                      <a href="#linkedin" class="linkedin"><span class="fa fa-linkedin"></span></a>
-                  </div>
-              </div>
-              <div class="footer-list-29 footer-2">
-                  <ul>
-                      <h6 class="footer-title-29">Menu Principal</h6>
-                      <li><a href="index.php">Início</a></li>
-                       <li><a href="vereadores.php">Vereadores</a></li>
-                      <li><a href="regimento.php">Regimento</a></li>
-                      <li><a href="ouvidoria.php">Ouvidoria</a></li>
-                      <li><a href="contato.php.html">Contato</a></li>
-                  </ul>
-              </div>
-          <div class="d-grid grid-col-2 bottom-copies">
-              <p class="copy-footer-29">© 2022 Câmara de Materlândia. Todos os Direitos Reservados | <br>Desenvolvido por <a href="https://codesdevs.com">Codes Devs</a></p>
-               <ul class="list-btm-29">
-                      <li><a href="#link">Política de Privacidade</a></li>
-                      <li><a href="#link">Termos de de Serviço</a></li>
-                      
-                  </ul>
-          </div>
-      </div>
-  </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid copyright text-light py-4" data-wow-delay="0.1s">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                    &copy; <a href="#">© 2022 Câmara de Materlândia.</a>, All Right Reserved.
+                </div>
+                <div class="col-md-6 text-center text-md-end">
+                    Designed By <a href="https://htmlcodex.com">HTML Codex</a>
+                    <br>Distributed By: <a href="https://themewagon.com" target="_blank">ThemeWagon</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>

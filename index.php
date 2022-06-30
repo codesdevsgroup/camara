@@ -71,8 +71,8 @@
 
 </section>
 
-<section>
-	<div class="container p-3 shadow p-3 mb-5 bg-white rounded">
+<section class="">
+	<div class="container p-3 shadow p-3 mb-5 rounded bg-light">
 		<div class="row d-flex justify-content-center bg-light h5">
 			<div class="col-lg-7 col-12col-7 ml-2 mt-4">
 			<p>Sejam Bem-vindos</p>
@@ -92,8 +92,8 @@
 
   <!-- news -->
 <section>
-<div class="container bg-white">
-	<div class="row py-3 mb-5 rounded">
+<div class="container">
+	<div class="row  rounded bg-light">
 		<div class="col-lg-8 shadow p-3 col-12 mr-auto ">
 			<div class="heading text-center mx-auto">
 				<h3 class="head">Ultimas Notícias</h3>
@@ -106,7 +106,7 @@
 				{
 				$parcial = substr($linhas[1],0,100); 
 			?>
-			<div class="card m-2 col-lg col-sm-5 text-center shadow p-3 mb-5 bg-white rounded">
+			<div class="card m-2 col-lg col-sm-5 text-center shadow p-3 mb-5 rounded">
 				<a href="generic.php?tipo=1&id=<?=$linhas[4]?>"><img src="./dados/imagemArtigo/<?=$linhas[2]?>" alt="" class="img-fluid img-thumbnail " width="140" ></a>
 				<div class="blog-info">
 					<p class="h6"><a href="generic.php?tipo=1&id=<?=$linhas[4]?>"><?=$linhas[0]?>.</a></p>
@@ -143,7 +143,7 @@
 </section>
 
 <section class="">
-	<div class="container py-lg-5 shadow p-3">
+	<div class="bg-light container py-lg-5 shadow p-3">
 		<div class="heading text-center mx-auto">
 			<h3 class="head">Corpo Legislativo</h3>
 				<p class="my-3 head"> Aqui você encontra informaçõe sobre os atuais vereadores da Câmara Municipal de Materlândia - MG.</p>

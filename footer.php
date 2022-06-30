@@ -45,15 +45,16 @@
                 </ul>
         </div>
     </div>
-
-    <div class="container-fluid copyright text-light py-4" data-wow-delay="0.1s">
+</section>
+<section id="copyright">
+    <div class="copyright text-light py-2" data-wow-delay="0.1s">
         <div class="container">
             <div class="row">
                 <div class="col-md-6 text-center text-md-start mb-md-0">
-                    &copy; <a href="#">© 2022 Câmara de Materlândia.</a>, All Right Reserved.
+                    &copy; <a href="#">© 2022 Câmara de Materlândia</a>, All Right Reserved.
                 </div>
-                <div class="col-md-6 text-center text-md-end">
-                    <br>Desenvolvido por: <a href="https://codesdev.com" target="_blank">CodesDev.com</a>
+                <div class="col-md-6 text-center">
+                    Desenvolvido por: <a href="https://codesdev.com">CodesDev.com</a>
                 </div>
             </div>
         </div>

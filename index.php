@@ -93,7 +93,7 @@
   <!-- news -->
 <section>
 <div class="container">
-	<div class="row  rounded bg-light mb-5">
+	<div class="row  rounded bg-light mb-4">
 		<div class="col-lg-8 shadow p-3 col-12 mr-auto ">
 			<div class="heading text-center mx-auto">
 				<h3 class="head">Ultimas Notícias</h3>
@@ -142,21 +142,29 @@
 </div>
 </section>
 
-<section class="">
-	<div class="bg-light container py-lg-5 shadow p-3 mb-5">
+<section class="banner_cidade shadow text-center p-4 bg-light">
+	<div class="container m-3">
+		<h3>Website da Câmara Municipal de Materlândia - MG</3>
+		<h5>Um canal de informação a serviço dos MATERLANDIENSES!</h5>
+	</div>
+</section>
+
+<section class="container">
+	<div class="bg-light row py-lg-5 mt-2 shadow mb-3 mt-4">
+		<div class="p-3">
 		<div class="heading text-center mx-auto">
 			<h3 class="head">Corpo Legislativo</h3>
-				<p class="my-3 head"> Aqui você encontra informaçõe sobre os atuais vereadores da Câmara Municipal de Materlândia - MG.</p>
+				<p class="my-3 head"> Conheça os Parlamentares • Legislatura 2021/2024</p>
 		</div>
 		<div class="row team-row pt-3 mt-5">
 		<?php
 			$resultado = $conn->query("SELECT v.NomeVereador, v.fotoVereador, o.nomeOrdem from tb_vereadores v INNER JOIN tb_ordem o on v.ordemVereador=o.idOrdem WHERE v.ativoVereador='1' ORDER BY v.idVereador");
 			foreach($resultado as $row)
 		{
-			printf('<div class="col-lg-3 col-sm-6 team-wrap mt-sm-0 pt-sm-0 mt-4 pt-2">
+			printf('<div class="col-lg-3 col-sm-6 team-wrap mt-sm-0 pt-sm-0 mt-4 pt-2 text-center">
 					<div class="shadow team-info">
 					<div class="column position-relative">
-						<a href="#url"><img src="dados/vereadores/%s" alt="" class="img-fluid team-image" /></a>
+						<a href="#url"><img src="dados/vereadores/%s" alt="" class="img-fluid p-4" /></a>
 					</div>
 					<div class="column-btm">
 						<h3 class="name-pos"><a href="#url">%s</a></h3>
@@ -169,7 +177,8 @@
 				</div>
 				</div>',$row[1],$row[0],$row[2]);
 				}
-				?>	
+				?>
+		</div>
 	</div>
 </section>
 

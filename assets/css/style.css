@@ -31,6 +31,12 @@ body {
    background-color:rgba(0, 161, 255, 0.95);
    opacity: 0.9;
 }
+.banner_cidade {
+    background: #fff url(../img/fundo.png) repeat-x;
+}
+#copyright{
+    background-color: black;
+}
 
 @media (min-width: 1024px){
 

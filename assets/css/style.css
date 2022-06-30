@@ -5,6 +5,7 @@
 .menu ul li{
     transition: transform .3s;
     margin: 0 auto;
+    color: black;
 }
 .menu ul li:hover{
     transform: scale(1.1);
@@ -16,8 +17,13 @@
     text-align: center
 }
 
+.barra_menu{
+   background-color: #00a1ff;
+   
+}
+
 @media (min-width: 1024px){
 
 
-
 }
+

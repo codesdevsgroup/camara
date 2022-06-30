@@ -9,11 +9,11 @@
             
             <div>
             <h6 class="">Entre em Contato</h6>
-                  <ul>
-                      <li><p><span class=""></span><a href="https://goo.gl/maps/ohzyZ3u2QF95RNW37">Pça. Geraldo Anadir, 11, Centro, Materlândia - MG 39755-000.</a></p></li>
-                      <li><a href="tel:+55 33 3427-1170"><span class="fa fa-phone"></span> +55 33 3427-1170</a></li>
-                      <li><a href="mailto:contato@materlandia.mg.leg.br" class="mail"><span class="fa fa-envelope-open-o"></span> contato@materlandia.mg.leg.br</a></li>
-                  </ul>
+                <ul>
+                    <li><p><span class=""></span><a href="https://goo.gl/maps/m2HFq5F2Vnd4jgLu9">Pça. Geraldo Anadir, 11, Centro, Materlândia - MG 39755-000.</a></p></li>
+                    <li><a href="tel:+55 33 3427-1170"><span class="fa fa-phone"></span> +55 33 3427-1170</a></li>
+                    <li><a href="mailto:contato@materlandia.mg.leg.br" class="mail"><span class="fa fa-envelope-open-o"></span> contato@materlandia.mg.leg.br</a></li>
+                </ul>
             </div>
 
             <div class="">

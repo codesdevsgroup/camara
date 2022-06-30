@@ -26,7 +26,7 @@
       </div>
     </div>
     
-  <nav class=" navbar navbar-expand-sm navbar-light bg-primary sticky-top shadow">
+  <nav class="barra_menu navbar navbar-expand-sm navbar-light sticky-top shadow">
     <div class="container">
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nav-target">
         <span class="navbar-toggler-icon"></span>

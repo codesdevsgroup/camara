@@ -19,7 +19,9 @@ body {
     
     transform: scale(1.1);
 }
-
+.menu ul li a{
+    color: black;
+}
 
 .banner {
     text-align: center

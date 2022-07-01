@@ -51,10 +51,10 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-6 text-center text-md-start mb-md-0">
-                    &copy; <a href="#">2022 Câmara de Materlândia</a>, All Right Reserved.
+                    &copy;<a href="#">2022 Câmara de Materlândia</a>, All Right Reserved.
                 </div>
                 <div class="col-md-6 text-center">
-                    Desenvolvido por: <a href="https://codesdev.com">CodesDev.com</a>
+                    Desenvolvido por: <a href="https://codesdevs.com">CodesDevs.com</a>
                 </div>
             </div>
         </div>

@@ -97,7 +97,7 @@
 		<div class="col-lg-8 shadow p-3 col-12 mr-auto ">
 			<div class="heading text-center mx-auto">
 				<h3 class="head">Ultimas Notícias</h3>
-				<p class="my-3 head"> Acompanhe aqui, as ultimas notícas publicadas pela Câmara Municipal de Materlândia - MG. Para ver todas as notícias, <a href="listamateria.php">clique aqui.</a></p>
+				<p class="my-3 head"> Acompanhe aqui, as ultimas notícias publicadas pela Câmara Municipal de Materlândia - MG. Para ver todas as notícias, <a href="listamateria.php">clique aqui.</a></p>
 			</div>
 		<div class="row p-3">
 			<?php 
@@ -118,32 +118,19 @@
 			}?>
 		</div>
 	</div>
-	<div class="col-lg-4 col-12 shadow p-3 mr-auto">
-			<div class="">
-				<span class="" aria-hidden="true"></span>
-				<h4>Licitações e Contratos</h4>
-				<p>Nesta área, você pode acompanhar na íntegra todas as Licitações e Contratos firmados pela Câmara Municipal de Materlândia - MG.</p>
-				<a href="licitacoes.php" class="">Acesse</a>
-			</div>
+	<div class="col-lg-4 col-12 shadow p-5 mr-auto">
 			<div class="">
 				<span class="" aria-hidden="true"></span>
 				<h4>Portal da Transparência</h4>
 				<p>Nesta área, você pode acompanhar relatórios de gestão e demais itens de transparência da Câmara Municipal de Materlândia - MG.</p>
-				<a href="https://contasabertas.inf.br/entidade/cm-materlandia/" class="">Acesse </a>
-			</div>
-			<div class="">
-				<span class="" aria-hidden="true"></span>
-				<h4>Produção Legislativa</h4>
-				<p>Nesta área, você pode acompanhar toda Produção Legislativa, Indicações, Projetos de Lei da Câmara Municipal de Materlândia - MG</p>
-				<a href="producao.php" class="">Acesse </a>
-			</div>
-		
+				<a class="text-right text-info-50" href="https://contasabertas.inf.br/entidade/cm-materlandia/">Acesse </a>
+			</div>		
 	</div>
 </div>
 </section>
 
 <section class="banner_cidade shadow text-center p-4 bg-light">
-	<div class="container m-3">
+	<div class="container pb-1 mb-4 mt-3">
 		<h3>Website da Câmara Municipal de Materlândia - MG</3>
 		<h5>Um canal de informação a serviço dos MATERLANDIENSES!</h5>
 	</div>
@@ -154,17 +141,17 @@
 		<div class="p-3">
 		<div class="heading text-center mx-auto">
 			<h3 class="head">Corpo Legislativo</h3>
-				<p class="my-3 head"> Conheça os Parlamentares • Legislatura 2021/2024</p>
+				<p class="my-3 head"> Conheça os Parlamentares <br> Legislatura 2021/2024</p>
 		</div>
 		<div class="row team-row pt-3 mt-5">
 		<?php
 			$resultado = $conn->query("SELECT v.NomeVereador, v.fotoVereador, o.nomeOrdem from tb_vereadores v INNER JOIN tb_ordem o on v.ordemVereador=o.idOrdem WHERE v.ativoVereador='1' ORDER BY v.idVereador");
 			foreach($resultado as $row)
 		{
-			printf('<div class="col-lg-3 col-sm-6 team-wrap mt-sm-0 pt-sm-0 mt-4 pt-2 text-center">
+			printf('<div class="col-lg-4 col-sm-6 team-wrap mt-sm-0 pt-sm-0 mt-4 pt-2 text-center">
 					<div class="shadow team-info">
-					<div class="column position-relative">
-						<a href="#url"><img src="dados/vereadores/%s" alt="" class="img-fluid p-4" /></a>
+					<div class="column position-relative p-4">
+						<a href="#url"><img src="dados/vereadores/%s" alt="" class="img-fluid p-5" /></a>
 					</div>
 					<div class="column-btm">
 						<h3 class="name-pos"><a href="#url">%s</a></h3>

@@ -28,7 +28,7 @@
     
   <nav class="barra_menu navbar navbar-expand-sm navbar-light sticky-top shadow">
     <div class="container">
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nav-target">
+      <button class="btn pull-right navbar-toggler" type="button" data-toggle="collapse" data-target="#nav-target">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="menu text-center collapse navbar-collapse" id="nav-target" >

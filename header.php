@@ -32,9 +32,12 @@
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="menu text-center collapse navbar-collapse" id="nav-target" >
-        <ul class="navbar-nav h4 ml-auto ">
+        <ul class="navbar-nav h6 ml-auto ">
           <li class="nav-item mr-1">
             <a class="nav-link" href="index.php">Início</a>
+          </li>
+          <li class="nav-item mr-1">
+            <a class="nav-link" href="index.php">a cidade</a>
           </li>
           <li class="nav-item mr-1">
             <a class="nav-link" href="vereadores.php">Vereadores</a>

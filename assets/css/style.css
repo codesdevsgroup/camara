@@ -30,6 +30,7 @@ body {
 .barra_menu {
    background-color:rgba(20, 141, 211, 0.95);
    opacity: 0.9;
+   text-transform: uppercase;
 }
 .banner_cidade {
     background: #00a1ff url() repeat-x;
@@ -40,6 +41,9 @@ body {
 .footer {
     background-color: #222229;
     color: #fff;
+}
+.nav-item:hover {
+    text-decoration: underline;
 }
 
 @media (min-width: 1024px){

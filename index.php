@@ -83,7 +83,7 @@
 			Por este canal o cidadão poderá acompanhar de forma dinâmica a aplicação dos recursos públicos da Câmara, compreendendo as receitas transferidas e a execução das despesas, sendo oferecidas outras informações de interesse do cidadão, tais como projetos dos vereadores, pauta parlamentar e andamento de contratos e relatórios exigidos pela lei de responsabilidade fiscal.
 			</p>
 			</div>
-			<div class="col-4">
+			<div class="col-sm">
 				<img src="./assets/img/logo.png" class="img-fluid ">
 			</div>
 		</div>

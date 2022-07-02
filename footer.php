@@ -1,4 +1,4 @@
-<section class="shadow pt-4 bg-light">
+<section class="shadow pt-4 footer">
     <div class="container">
         <div class="row ">
             <div class="ml-2 col-md-5 text-md-start mb-md-0">     

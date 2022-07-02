@@ -37,6 +37,10 @@ body {
 #copyright{
     background-color: black;
 }
+.footer {
+    background-color: #222229;
+    color: #fff;
+}
 
 @media (min-width: 1024px){
 .banner_cidade {

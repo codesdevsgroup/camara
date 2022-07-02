@@ -18,24 +18,24 @@
 						<?php
 						$resultado = $conn->query("SELECT v.NomeVereador, v.fotoVereador, o.nomeOrdem from tb_vereadores v INNER JOIN tb_ordem o on v.ordemVereador=o.idOrdem WHERE v.ativoVereador='1' ORDER BY v.idVereador");
 						foreach($resultado as $row)
-						{
-							printf('<div class="col-lg-3 col-sm-6 team-wrap mt-sm-0 pt-sm-0 mt-4 pt-2">
-			
-									<div class="team-info">
-											<div class="column position-relative">
-												<a href="#url"><img src="dados/vereadores/%s" alt="" class="img-fluid team-image" /></a>
-										</div>
-										<div class="column-btm">
-											<h3 class="name-pos"><a href="#url">%s</a></h3>
-											<p>%s</p>
-											<div class="social">
-												<a href="#facebook" class="facebook"><span class="fa fa-facebook" aria-hidden="true"></span></a>
-												<a href="#twitter" class="twitter"><span class="fa fa-twitter" aria-hidden="true"></span></a>
-											</div>
-										</div>
-									</div>
-							</div>',$row[1],$row[0],$row[2]);
-						}
+						{ ?>
+							<div class="col-lg-3 col-sm-6 team-wrap mt-sm-0 pt-sm-0 mt-4 pt-2">
+                <div class="team-info">
+                    <div class="column position-relative">
+                      <a href="#url"><img src="dados/vereadores/<?= $row[1] ?>" alt="" class="img-fluid team-image" /></a>
+                    </div>
+                  <div class="column-btm">
+                    <h3 class="name-pos"><a href="#url"><?= $row[0] ?></a></h3>
+                    <p><?= $row[2] ?></p>
+                    <div class="social">
+                      <a href="#facebook" class="facebook"><span class="fa fa-facebook" aria-hidden="true"></span></a>
+                      <a href="#twitter" class="twitter"><span class="fa fa-twitter" aria-hidden="true"></span></a>
+                    </div>
+                  </div>
+                </div>
+							</div>
+
+						<?php }
 						?>
 					
 							<!-- end team member -->

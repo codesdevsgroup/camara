@@ -1,5 +1,5 @@
 ﻿<?php
-include ("./conexao.php");
+include ("../../../htdocs/conexao.php");
 
 if(!isset($_SESSION)) {
 	session_start();

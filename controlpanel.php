@@ -3,7 +3,7 @@
   if(!isset($_SESSION)) {
     session_start();
   }
-  require_once('./conexao.php');
+  require_once("../../../htdocs/conexao.php");
   if ($_SESSION['authy'] != 'yes') {
     header("Location: killsess.php");
   }

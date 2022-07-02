@@ -139,32 +139,33 @@
 <section class="container">
 	<div class="bg-light row py-lg-5 mt-2 shadow mb-3 mt-4">
 		<div class="p-3">
-		<div class="heading text-center mx-auto">
-			<h3 class="head">Corpo Legislativo</h3>
-				<p class="my-3 head"> Conheça os Parlamentares <br> Legislatura 2021/2024</p>
-		</div>
-		<div class="row team-row pt-3 mt-5">
-		<?php
-			$resultado = $conn->query("SELECT v.NomeVereador, v.fotoVereador, o.nomeOrdem from tb_vereadores v INNER JOIN tb_ordem o on v.ordemVereador=o.idOrdem WHERE v.ativoVereador='1' ORDER BY v.idVereador");
-			foreach($resultado as $row)
-		{
-			printf('<div class="col-lg-4 col-sm-6 team-wrap mt-sm-0 pt-sm-0 mt-4 pt-2 text-center">
-					<div class="shadow team-info">
-					<div class="column position-relative p-4">
-						<a href="#url"><img src="dados/vereadores/%s" alt="" class="img-fluid p-5" /></a>
+			<div class="heading text-center mx-auto">
+				<h3 class="head">Corpo Legislativo</h3>
+					<p class="my-3 head"> Conheça os Parlamentares <br> Legislatura 2021/2024</p>
+			</div>
+			<div class="row team-row pt-3 mt-5">
+				<?php
+					$resultado = $conn->query("SELECT v.NomeVereador, v.fotoVereador, o.nomeOrdem from tb_vereadores v INNER JOIN tb_ordem o on v.ordemVereador=o.idOrdem WHERE v.ativoVereador='1' ORDER BY v.idVereador");
+					foreach($resultado as $row)
+				{
+					?>
+				
+					<div class="col-lg-4 col-sm-6 team-wrap mt-sm-0 pt-sm-0 mt-4 pt-2 text-center">
+						<div class="shadow team-info">
+						<div class="column position-relative p-4">
+							<a href="#url"><img src="dados/vereadores/<?= $row[1] ?>" alt="" class="img-fluid p-5" /></a>
 					</div>
 					<div class="column-btm">
-						<h3 class="name-pos"><a href="#url">%s</a></h3>
-						<p>%s</p>
-							<div class="social">
-								<a href="#facebook" class="facebook"><span class="fa fa-facebook" aria-hidden="true"></span></a>
-								<a href="#twitter" class="twitter"><span class="fa fa-twitter" aria-hidden="true"></span></a>
-							</div>
+						<h3 class="name-pos"><a href="#url"><?= $row[0] ?></a></h3>
+						<p><?= $row[2] ?></p>
+						<div class="social">
+							<a href="#facebook" class="facebook"><span class="fa fa-facebook" aria-hidden="true"></span></a>
+							<a href="#twitter" class="twitter"><span class="fa fa-twitter" aria-hidden="true"></span></a>
+						</div>
 					</div>
 				</div>
-				</div>',$row[1],$row[0],$row[2]);
-				}
-				?>
+			</div>
+			<?php } ?>
 		</div>
 	</div>
 </section>

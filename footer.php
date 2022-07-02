@@ -7,9 +7,9 @@
                 </iframe>
             </div>
             
-            <div class="col-md-6 text-md-end">
+            <div class="col-md-6 text-md-end  pt-5">
                 <ul>
-                    <h6 class="">Entre em Contato</h6>
+                    <h6 class="h2">Entre em Contato</h6>
                     <li><p><span class=""></span><a href="https://goo.gl/maps/m2HFq5F2Vnd4jgLu9">Pça. Geraldo Anadir, 11, Centro, Materlândia - MG 39755-000.</a></p></li>
                     <li><a href="tel:+55 33 3427-1170"><span class="fa fa-phone"></span> +55 33 3427-1170</a></li>
                     <li><a href="mailto:contato@materlandia.mg.leg.br" class="mail"><span class=""></span> contato@materlandia.mg.leg.br</a></li>
@@ -20,28 +20,29 @@
         <div class="row pt-3">
             <div class="col-md-4 text-md-start mb-md-0">
                 <ul>
-                    <h6 class="footer-title-29">Menu Principal</h6>
-                    <li><a href="index.php">Início</a></li>
-                    <li><a href="vereadores.php">Vereadores</a></li>
-                    <li><a href="regimento.php">Regimento</a></li>
-                    <li><a href="contato.php.html">Contato</a></li>
+                    <h6 class="h3">Principais</h6>
+                    <li class="nav"><a href="index.php">Transparência</a></li>
+                    <li class="nav"><a href="vereadores.php">Notícias</a></li>
+                    <li class="nav"><a href="regimento.php">Regimento</a></li>
+                    <li class="nav"><a href="contato.php.html">Contato</a></li>
                 </ul>
             </div>
-            <div class="col-md-3 text-md-end">
+            <div class="col-md-4 text-md-end">
                 <ul>
-                    <h6 class="">Links Úteis</h6>
+                    <h6 class="h3">Links Úteis</h6>
                     <li class="nav"><a href="index.html">Pref. de Materlândia</a></li>
                     <li class="nav"><a href="about.html">Minas Gerais</a></li>
                     <li class="nav"><a href="services.html">Copasa</a></li>
                     <li class="nav"><a href="#">Cemig</a></li>
                 </ul>
             </div>
-            <div class="pt-4">
+            <div class="pt-3">
                 <ul>
-                    <li><a href="contact.html">Polícia Militar</a></li>
-                    <li><a href="#">TCU</a></li>
-                    <li><a href="contact.html">Assembleia Legislativa do Estado de Minas Gerais</a></li>
-                    <li><a href="https://webmail.hostinger.com.br/auth">Servidor de E-mail</a> </li>
+                    <br>
+                    <li class="nav"><a href="contact.html">Polícia Militar</a></li>
+                    <li class="nav"><a href="#">TCU</a></li>
+                    <li class="nav"><a href="contact.html">Assembleia Legislativa de Minas Gerais</a></li>
+                    <li class="nav"><a href="https://webmail.hostinger.com.br/auth">Servidor de E-mail</a> </li>
                 </ul>
         </div>
     </div>

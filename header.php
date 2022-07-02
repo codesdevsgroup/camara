@@ -42,7 +42,7 @@
            <li class="nav-item mr-1">
             <a class="nav-link" href="regimento.php">Regimento</a>
           </li>
-          <li class="nav-item">
+          <li class="nav-item mr-1">
             <a class="nav-link" href="contato.php">Contato</a>
           </li>
         </ul>        

@@ -36,7 +36,7 @@
                     <li class="nav"><a href="#">Cemig</a></li>
                 </ul>
             </div>
-            <div class="col-md-4 text-md-end pt-3">
+            <div class="col-md-4 text-md-end pt-sm-3">
                 <ul>
                     <br>
                     <li class="nav"><a href="contact.html">Polícia Militar</a></li>

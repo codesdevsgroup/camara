@@ -51,5 +51,11 @@ body {
     background: #fff url(../img/fundo.png) repeat-x;
 }
 
+.nav-item{
+    padding-right: 20px;
 }
+}
+@media (max-width: 1024px){
+    
 
+}

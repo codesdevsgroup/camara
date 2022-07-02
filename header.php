@@ -16,15 +16,13 @@
 
 <body>
 <header class="">
-  <div class="align-items-center" style="background: black; text-align: center">
+  <div class="align-items-center row" style="background: black; text-align: center">
     <div class="container">
-      <div class="">
-        <a  href="index.php" class="text-white pr-3">Câmara Municipal de Materlândia - MG</a>
-        <a href="tel:+55 33 3424-1170" class="text-white pr-3" style= "white-space: nowrap;">+55 33 3427-1170</a>
-        <a href="mailto:contato@materlandia.mg.leg.br" class="text-white pr-3"> contato@materlandia.mg.leg.br</a>
-        </div>
-      </div>
+      <a  href="index.php" class="text-white pr-3">Câmara Municipal de Materlândia - MG</a>
+      <a href="tel:+55 33 3424-1170" class="text-white pr-3" style= "white-space: nowrap;">+55 33 3427-1170</a>
+      <a href="mailto:contato@materlandia.mg.leg.br" class="text-white pr-3"> contato@materlandia.mg.leg.br</a>
     </div>
+  </div>
     
   <nav class="barra_menu navbar navbar-expand-sm navbar-light sticky-top shadow">
     <div class="container">

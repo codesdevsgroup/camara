@@ -8,7 +8,6 @@ html {
 }
 body {
     background-color: #e6e6e6;
-    overflow-x: hidden;
 }
 
 .menu ul li{
@@ -51,12 +50,5 @@ body {
 .banner_cidade {
     background: #fff url(../img/fundo.png) repeat-x;
 }
-
-.nav-item{
-    padding-right: 20px;
 }
-}
-@media (max-width: 1024px){
 
-
-}

@@ -156,12 +156,8 @@
 							<a href="#url"><img src="dados/vereadores/<?= $row[1] ?>" alt="" class="img-fluid p-5" /></a>
 					</div>
 					<div class="column-btm">
-						<h3 class="name-pos"><a href="#url"><?= $row[0] ?></a></h3>
+						<h3 class="h5"><a href="#url"><?= $row[0] ?></a></h3>
 						<p><?= $row[2] ?></p>
-						<div class="social">
-							<a href="#facebook" class="facebook"><span class="fa fa-facebook" aria-hidden="true"></span></a>
-							<a href="#twitter" class="twitter"><span class="fa fa-twitter" aria-hidden="true"></span></a>
-						</div>
 					</div>
 				</div>
 			</div>

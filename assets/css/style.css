@@ -60,7 +60,7 @@ body {
 #backToTopButton {
     position: sticky;
     top: 0;
-    bottom: 1.6rem;
+    bottom: 1rem;
     left: 95%;
   
     opacity: 0;
@@ -68,7 +68,6 @@ body {
 
     transform: translateY(100%);
     transition: 200ms;
-    float: right;
 }
 #backToTopButton svg {
     border: solid 0.05rem white;

@@ -7,7 +7,6 @@
   if ($_SESSION['authy'] != 'yes') {
     header("Location: killsess.php");
   }
-	require_once('./header.php');
   ?>
 
 <!doctype html>
@@ -28,6 +27,7 @@
   <!-- Template CSS -->
   <link rel="stylesheet" href="assets/css/style-starter.css">
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="assets/css/style.css">
   <style>
     .caixa {
       width: 100%;

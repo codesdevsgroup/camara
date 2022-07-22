@@ -70,7 +70,7 @@
       <div class="tudo">
         <div class="painelmenu">
           <a href="cadastraartigo.php" target="painel">
-            <div class="btn">Cadastro de Notícias</div>
+            <div class="btn">Cadastrar Notícias</div>
           </a>
         </div>
         <div class="paineldados">

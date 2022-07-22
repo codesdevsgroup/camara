@@ -118,12 +118,12 @@
 			}?>
 		</div>
 	</div>
-	<div class="col-lg-4 col-12 shadow p-5 mr-auto">
-			<div class="">
+	<div class="col-lg-4 col-12 shadow p-3 mr-auto">
+			<div class="p-2 shadow pb-5">
 				<span class="" aria-hidden="true"></span>
 				<img src="./assets/img/transparencia.jpg" class="img-fluid ">
-				<p class="p-1">Nesta área, você pode acompanhar relatórios de gestão e demais itens de transparência da Câmara Municipal de Materlândia - MG.</p>
-				<a class="text-right text-info-50" href="https://contasabertas.inf.br/entidade/cm-materlandia/">Acesse </a>
+				<p class="pl-1 h6">Nesta área, você pode acompanhar relatórios de gestão e demais itens de transparência da Câmara Municipal de Materlândia-MG.</p>
+				<button type="button" class="float-right btn btn-primary"><a class="float-right text-info-50 text-light" href="https://contasabertas.inf.br/entidade/cm-materlandia/">Acesse</a></button>
 			</div>		
 	</div>
 </div>

@@ -37,7 +37,7 @@
       <div class="tudo">
         <div class="painelmenu">
           <a href="cadastraartigo.php" target="painel">
-            <div class="btn">Cadastrar Notícias</div>
+            <div class="btn2">Cadastrar Notícias</div>
           </a>
         </div>
         <div class="paineldados">

@@ -68,6 +68,7 @@ body {
 
     transform: translateY(100%);
     transition: 200ms;
+    float: right;
 }
 #backToTopButton svg {
     border: solid 0.05rem white;

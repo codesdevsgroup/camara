@@ -69,14 +69,10 @@ body {
     transform: translateY(100%);
     transition: 200ms;
 }
-<<<<<<< Updated upstream
 #backToTopButton svg {
     border: solid 0.1rem white;
     border-radius: 50% ;
 }
-=======
-  
->>>>>>> Stashed changes
 #backToTopButton.show {
     opacity: 1;
     visibility: visible;

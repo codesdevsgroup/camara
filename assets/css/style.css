@@ -61,7 +61,7 @@ body {
     position: sticky;
     top: 0;
     bottom: 2rem;
-    left: 90rem;
+    left: 100%;
   
     opacity: 0;
     visibility: hidden;

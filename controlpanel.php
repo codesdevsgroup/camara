@@ -67,29 +67,9 @@
         <div class="heading text-center mx-auto">
           <h3 class="head">Painel de Controle</h3>
           <p class="my-3 head"> Espaço para administração do ambiente virtual da Câmara Municipal de Materlândia - MG.</p>
-
         </div>
-
-
-
         <div class="row team-row pt-3 mt-5">
-
-
-
-
-
-
           <div class="tudo">
-            <div class="painelmenu">
-              <a href="uploaddoc.php" target="painel">
-                <div class="btn">Cadastro de Produção</div>
-              </a>
-              <a href="cadastraProcesso.php" target="painel">
-                <div class="btn">Cadastro de Processos</div>
-              </a>
-              <a href="cadastraanexoprocesso.php" target="painel">
-                <div class="btn">Cadastro de Anexos</div>
-              </a>
               <a href="cadastraartigo.php" target="painel">
                 <div class="btn">Cadastro de Notícias</div>
               </a>

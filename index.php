@@ -54,12 +54,17 @@
 			}?>
 		</div>
 	</div>
+<<<<<<< HEAD
 	<div class="col-lg-3 col-12 shadow p-2 mr-auto">
 			<div class="p-3 shadow pb-5">
+=======
+	<div class="col-lg-4 col-12 shadow p-5 mr-auto">
+			<div class="">
+>>>>>>> parent of bfa049c (footer insert)
 				<span class="" aria-hidden="true"></span>
 				<img src="./assets/img/transparencia.jpg" class="img-fluid ">
-				<p class="pl-1 h6">Nesta área, você pode acompanhar relatórios de gestão e demais itens de transparência da Câmara Municipal de Materlândia-MG.</p>
-				<button type="button" class="float-right btn btn-primary"><a class="float-right text-info-50 text-light" href="https://contasabertas.inf.br/entidade/cm-materlandia/">Acesse</a></button>
+				<p class="p-1">Nesta área, você pode acompanhar relatórios de gestão e demais itens de transparência da Câmara Municipal de Materlândia - MG.</p>
+				<a class="text-right text-info-50" href="https://contasabertas.inf.br/entidade/cm-materlandia/">Acesse </a>
 			</div>		
 	</div>
 </div>

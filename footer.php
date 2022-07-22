@@ -60,6 +60,10 @@
             </div>
         </div>
     </div>
+     <!-- move top -->
+     <button onclick="topFunction()" id="movetop" title="Go to top">
+      <span class="fa fa-angle-up"></span>
+    </button>
 </section>
 
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->

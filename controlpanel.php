@@ -8,43 +8,9 @@
     header("Location: killsess.php");
   }
   ?>
-
-<!doctype html>
-<html lang="en">
-
-<head>
-  <!-- Required meta tags -->
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-  <title>Painel de Controle</title>
-  <!-- web fonts -->
-  <!-- web fonts -->
-  <link href="//fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900&display=swap" rel="stylesheet">
-  <link href="//fonts.googleapis.com/css?family=Hind&display=swap" rel="stylesheet">
-  <!-- //web fonts -->
-  <!-- //web fonts -->
-  <!-- Template CSS -->
-  <link rel="stylesheet" href="assets/css/style-starter.css">
-  <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="assets/css/style.css">
-  <style>
-    .caixa {
-      width: 100%;
-      margin: 5px;
-      height: auto;
-      padding: 3px;
-      border-radius: 5px;
-      border: 1px solid black;
-    }
-
-    .links {
-      width: auto;
-      padding: 5px;
-    }
-
-  </style>
-</head>
+<?php
+	require_once('./header.php');
+?>
 
 <body>
   <!-- Top Menu 1 -->

@@ -12,6 +12,7 @@
   <title>Câmara Municipal de Materlândia - MG</title>
   <link rel="stylesheet" href="assets/css/bootstrap.min.css">
   <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>

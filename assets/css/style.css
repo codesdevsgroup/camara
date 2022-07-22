@@ -5,9 +5,13 @@
 
 html {
     overflow-x: hidden;
+    scroll-behavior: smooth;
 }
 body {
     background-color: #e6e6e6;
+    scroll-behavior: smooth;
+    width: 100%;
+    height: 100%;
 }
 
 .menu ul li{
@@ -46,21 +50,33 @@ body {
     text-decoration: underline;
 }
 /* BACK TO TOP */
+
+
+#backToTopButton svg {
+    border: solid 0.1px white;
+    border-radius: 50% ;
+}
+
 #backToTopButton {
-    position: fixed;
-    bottom: 1rem;
-    right: 2.5rem;
+    position: sticky;
+    top: 0;
+    bottom: 2rem;
+    left: 90rem;
   
     opacity: 0;
     visibility: hidden;
-  
+
     transform: translateY(100%);
     transition: 200ms;
 }
+<<<<<<< Updated upstream
 #backToTopButton svg {
     border: solid 0.1rem white;
     border-radius: 50% ;
 }
+=======
+  
+>>>>>>> Stashed changes
 #backToTopButton.show {
     opacity: 1;
     visibility: visible;

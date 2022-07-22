@@ -4,71 +4,7 @@
 <section class="banner">
 	<div class="row " style="display: block;" ><!--Row -->
         <div class="col-sm-12 m-auto"><!--col-sm8 -->
-          <div id="carousel-legenda" class="carousel slide" data-ride="carousel"><!--Carousel -->
-
-            <!-- Indicadores -->
-            <ol class="carousel-indicators">
-
-              <li class="active" data-target="#carousel-legenda" data-slide-to="0"></li>
-
-              <li data-target="#carousel-legenda" data-slide-to="1"></li>
-
-              <li data-target="#carousel-legenda" data-slide-to="2"></li>
-
-            </ol>
-
-            <div class="carousel-inner"><!--Inner -->
-              
-              <div class="carousel-item active">
-                <img src="./assets/img/imagem1.jpg" class="img-fluid ">
-                <div class="carousel-caption">
-                  <div style="background: black; padding: 10px;">
-                    <h3>Item 1</h3>
-                    <p>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    </p>
-                  </div>
-                </div>
-              </div>
-
-              <div class="carousel-item">
-                <img src="./assets/img/imagem2.jpg" class="img-fluid">
-                <div class="carousel-caption">
-                  <h3>Item 2</h3>
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  </p>
-                </div>
-              </div>
-
-              <div class="carousel-item">
-                <img src="./assets/img/imagem3.jpg" class="img-fluid">
-                <div class="carousel-caption">
-                  <h3>Item 3</h3>
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  </p>
-                </div>
-              </div>
-
-            </div><!--/Inner -->
-
-            <!-- Controles -->
-            <a href="#carousel-legenda" class="carousel-control-prev" data-slide="prev">
-              <span class="carousel-control-prev-icon"></span>
-            </a>
-
-            <a href="#carousel-legenda" class="carousel-control-next" data-slide="next">
-              <span class="carousel-control-next-icon"></span>
-            </a>
-
-          </div><!--/Carousel -->
-          
-
-        </div><!--/col-sm8 -->
-      </div><!--/Row -->
-    </div>
-
+			<img src="assets/img/banner.jpg" class="img-fluid" alt="Responsive image">
 </section>
 
 <section class="">
@@ -94,7 +30,7 @@
 <section>
 <div class="container">
 	<div class="row  rounded bg-light mb-4">
-		<div class="col-lg-8 shadow p-3 col-12 mr-auto ">
+		<div class="col-lg-9 shadow p-3 col-12 mr-auto ">
 			<div class="heading text-center mx-auto">
 				<h3 class="head">Ultimas Notícias</h3>
 				<p class="my-3 head"> Acompanhe aqui, as ultimas notícias publicadas pela Câmara Municipal de Materlândia - MG. Para ver todas as notícias, <a href="listamateria.php">clique aqui.</a></p>
@@ -118,8 +54,8 @@
 			}?>
 		</div>
 	</div>
-	<div class="col-lg-4 col-12 shadow p-3 mr-auto">
-			<div class="p-2 shadow pb-5">
+	<div class="col-lg-3 col-12 shadow p-2 mr-auto">
+			<div class="p-3 shadow pb-5">
 				<span class="" aria-hidden="true"></span>
 				<img src="./assets/img/transparencia.jpg" class="img-fluid ">
 				<p class="pl-1 h6">Nesta área, você pode acompanhar relatórios de gestão e demais itens de transparência da Câmara Municipal de Materlândia-MG.</p>

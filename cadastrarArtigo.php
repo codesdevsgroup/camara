@@ -1,7 +1,7 @@
 <?php
 
 session_start();
-include_once './conexao.php';
+include_once '../../conexao.php';
 //Verificar se o usuário clicou no botão, clicou no botão acessa o IF e tenta cadastrar, caso contrario acessa o ELSE
 $SendCadImg = filter_input(INPUT_POST, 'SendCadImg', FILTER_SANITIZE_STRING);
 if ($SendCadImg) {

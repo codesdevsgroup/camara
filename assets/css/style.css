@@ -50,10 +50,8 @@ body {
     text-decoration: underline;
 }
 /* BACK TO TOP */
-
-
 #backToTopButton svg {
-    border: solid 0.1px white;
+    border: solid 0.05px white;
     border-radius: 50% ;
 }
 
@@ -61,7 +59,7 @@ body {
     position: sticky;
     top: 0;
     bottom: 1rem;
-    left: 95%;
+    left: 99%;
   
     opacity: 0;
     visibility: hidden;

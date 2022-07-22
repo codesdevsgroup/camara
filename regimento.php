@@ -20,4 +20,4 @@
 			</div>
     </div>
 	</section>
-	<!--//team-sec-->
+<?php require_once 'footer.php'; ?>

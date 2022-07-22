@@ -7,7 +7,7 @@
   if ($_SESSION['authy'] != 'yes') {
     header("Location: killsess.php");
   }
-  print_r($_SESSION);
+
   ?>
 <!doctype html>
 <html lang="en">

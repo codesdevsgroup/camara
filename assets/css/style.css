@@ -61,7 +61,6 @@ body {
     border: solid 0.1rem white;
     border-radius: 50% ;
 }
-  
 #backToTopButton.show {
     opacity: 1;
     visibility: visible;

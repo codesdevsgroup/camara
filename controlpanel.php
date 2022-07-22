@@ -7,8 +7,9 @@
   if ($_SESSION['authy'] != 'yes') {
     header("Location: killsess.php");
   }
-
+	require_once('./header.php');
   ?>
+
 <!doctype html>
 <html lang="en">
 

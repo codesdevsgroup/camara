@@ -46,7 +46,6 @@
                 </ul>
         </div>
     </div>
-</section>
     <!-- move top -->
     <a id="backToTopButton" href="#home" class="">
         <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -56,6 +55,8 @@
         </svg>
     </a>
     <!-- /move top -->
+</section>
+
 <section id="copyright">
     <div class="copyright text-light" data-wow-delay="0.1s">
         <div class="container">
